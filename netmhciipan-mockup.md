@@ -41,7 +41,7 @@ As seen in the graphic above, here are the main features/parameters:
      - Default: `DRB1_0101`
 * Specify peptide length(s)
      - Default: `15`
-* Threshold cute-offs for %Rank values
+* Threshold cut-offs for %Rank values
      - Default values for strong, weak binders: `1` `5`
 * Encode peptide context
      - Consists of 12 context residues/amino acids: 3 upstream of the N-terminus, 3 from the N-terminus, 3 from the C-terminus, and 3 downstream from the ligand
