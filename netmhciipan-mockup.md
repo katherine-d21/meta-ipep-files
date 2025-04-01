@@ -3,7 +3,7 @@
 - Updated: April 1, 2025
 
 ## Project overview
-* **Project:** meta-immunopeptidomics - Galaxy-based platform that detects, verifies, and characterizes HLA-bound microbial peptides from human tumor samples
+* **Project:** meta-immunopeptidomics - Galaxy-based bioinformatics workflow that detects, verifies, and characterizes HLA-bound microbial peptides from human tumor samples
 * **Lab Head:** Dr. Timothy J. Griffin
 * **Mentors:** Dr. Timothy J. Griffin, Dr. Pratik D. Jagtap
 * **Bioinformatics Researcher:** Subina Mehta
