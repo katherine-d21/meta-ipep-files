@@ -22,4 +22,4 @@
 
 This is what the [NetMHCIIpan website looks like](https://services.healthtech.dtu.dk/services/NetMHCIIpan-4.3/).
 
-Here is the website interface broken down into the components that we are most interested in:
+Here is the website interface broken down into the components that we are most interested in: [simple-web-interface]([mockup images/netmhciipan-web-mockup.png](/../main/mockup%20images/netmhciipan-web-mockup.png))
