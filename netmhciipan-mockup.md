@@ -1,4 +1,4 @@
-# Brainstorming: Integrating context and inverted peptide binders within Galaxy
+# Integrating context and inverted peptide binders within Galaxy
 
 ## Objectives of this document:
 * Documenting ideas for integrating peptide context encoding and prediction of inverted peptide binders within Galaxy
@@ -18,7 +18,7 @@
   - Three options: FASTA (from history), tabular (from history), manually entered
   - Here, we are looking at microbial peptides
  
-## Where are we starting from?
+## NetMHCIIpan website interface and functionality
 
 This is what the [NetMHCIIpan website looks like](https://services.healthtech.dtu.dk/services/NetMHCIIpan-4.3/).
 
@@ -42,10 +42,10 @@ As seen in the graphic above, here are the main features/parameters:
 * Include binding affinity (BA) predictions
      - Default: `only eluted ligand (EL) likelihood`
 
-## what is the current state of the Galaxy implementation of this tool?
+## Current state of the Galaxy tool implementation
 
 Here is the current MSI tool interface:
 
 ![msi-tool-interface](images/MSI-screenshot.png)
 
-So far, 
+
