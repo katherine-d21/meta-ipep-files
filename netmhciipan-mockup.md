@@ -26,8 +26,8 @@ Here is the website interface broken down into the components that we are most i
 
 ![simple-web-interface](images/netmhciipan-web-mockup.png)
 
-As seen in the graphic above, the following features/parameters are as follows:
-* Input peptides as FASTA or tabular
+As seen in the graphic above, here are the main features/parameters:
+* Input peptides as `FASTA` or `tabular`
 * Molecule selection by a dropdown menu or manual typing
      - Default: `DRB1_0101`
 * Specify peptide length(s)
