@@ -1,4 +1,13 @@
 # Integrating context and inverted peptide binders within Galaxy
+- Created: April 1, 2025
+- Updated: April 1, 2025
+
+## Project overview
+* **Project:** meta-immunopeptidomics - Galaxy-based platform that detects, verifies, and characterizes HLA-bound microbial peptides from human tumor samples
+* **Lab Head:** Dr. Timothy J. Griffin
+* **Mentors:** Dr. Timothy J. Griffin, Dr. Pratik D. Jagtap
+* **Bioinformatics Researcher:** Subina Mehta
+* **Galaxy Application Developer:** Reid Wagner
 
 ## Objectives of this document:
 * Documenting ideas for integrating peptide context encoding and prediction of inverted peptide binders within Galaxy
@@ -48,4 +57,28 @@ Here is the current MSI tool interface:
 
 ![msi-tool-interface](images/MSI-screenshot.png)
 
+Reid has been able to create the NetMHCIIpan "base" version via the IEDB-API service, meaning that the current iteration of the Galaxy tool has the same functionality as the API. However, the IEDB-API is limited in its functionality, compared to the NetMHCIIpan website as it **does not** include the options for encoding peptide context and prediction of inverted peptide binders.
 
+But first, let's cover the features that the Galaxy tool **does** comprise, as shown in the graphic below:
+* **A**: Prediction method
+   - The method `netmhciipan_el` will be used to obtain ligand predictions.
+   - Eluted ligand-based binding predictions are considered to be more biologically relevant than affinity-based predictions (thanks Subina and Flavia).
+   - If desired, Galaxy users can use the `netmhciipan_ba` to return binding affinity predictions.
+* **B**: MHC/HLA molecule selection
+   - Thanks to Reid: Lists of molecules/alleles have been added to NetMHCIIpan, which will allow users to select alleles from a dropdown menu. Alternatively, users can elect to upload a tabular file of alleles (in IEDB format).
+* **C**: Peptide length(s)
+  -   Peptides that bind to MHC class II molecules tend to be longer than those that bind MHC class II molecules, ranging from 12 to 20 amino acids in length.
+  -   Unlike the MHC class I binding groove, the MHC class II binding groove is open at both ends, which allows longer peptides to interact and be loaded onto the MHC class II molecule.
+* **D**: Input peptide sequences
+  - Users can add their peptides via FASTA or tabular files, or manually entering them.
+  - Here, we will use verified microbial peptides (and possibly accession numbers). 
+
+![compare-web-msi](images/MSI-current-features.png)
+
+## Brainstorming for integrating context and inversion
+
+As mentioned previously, the IEDB-API does not include context and inversion. So here are some mockups of what this could look like in Galaxy:
+
+![tool-mockup](images/Galaxy-tool-brainstorm.png)
+![context-mockup](images/Context-mockup.png)
+![inversion-mockup](images/Inversion-mockup.png)
