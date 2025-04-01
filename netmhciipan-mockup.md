@@ -23,8 +23,29 @@
 This is what the [NetMHCIIpan website looks like](https://services.healthtech.dtu.dk/services/NetMHCIIpan-4.3/).
 
 Here is the website interface broken down into the components that we are most interested in:
+
 ![simple-web-interface](images/netmhciipan-web-mockup.png)
 
+As seen in the graphic above, the following features/parameters are as follows:
+* Input peptides as FASTA or tabular
+* Molecule selection by a dropdown menu or manual typing
+     - Default: `DRB1_0101`
+* Specify peptide length(s)
+     - Default: `15`
+* Threshold cute-offs for %Rank values
+     - Default values for strong, weak binders: `1` `5`
+* Encode peptide context
+     - Consists of 12 context residues/amino acids: 3 upstream of the N-terminus, 3 from the N-terminus, 3 from the C-terminus, and 3 downstream from the ligand
+     - Default: `No`
+* Predict binding for inverted peptides to all molecules
+     - Default: `Peptide inversion only predicted for HLA-DP molecules`
+* Include binding affinity (BA) predictions
+     - Default: `only eluted ligand (EL) likelihood`
+
+## what is the current state of the Galaxy implementation of this tool?
+
 Here is the current MSI tool interface:
+
 ![msi-tool-interface](images/MSI-screenshot.png)
 
+So far, 
