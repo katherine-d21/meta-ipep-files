@@ -82,17 +82,26 @@ First, let's cover the features that the Galaxy tool **does** comprise, as shown
 
 ## Bridging the gap between NetMHCIIpan web and IEDB using Galaxy
 
-Reid has been able to create the NetMHCIIpan "base" version via the IEDB-API service, meaning that the current iteration of the Galaxy tool has the same functionality as the API. However, as confirmed by Flavia by email, IEDB is limited in its functionality compared to the NetMHCIIpan website because IEDB **does not** include the options for encoding peptide context and prediction of inverted peptide binders.
+Reid has been able to create the NetMHCIIpan "base" version via the IEDB-API service, meaning that the current iteration of the Galaxy tool has the same functionality as the API. However, as confirmed by Flavia by email, IEDB is limited in its functionality compared to the NetMHCIIpan website because IEDB **does not** include the options for setting %Rank thresholds, encoding peptide context, or prediction of inverted peptide binders.
 
 (Note: Flavia compared the NetMHCIIpan website compared to the IEDB website, but the IEDB website services are accessible from Galaxy via the IEDB-API. Therefore, it should mean that the IEDB website and API perform the same.)
 
-As mentioned previously, the IEDB-API does not include context and inversion. So here are some mockups of what this could look like in Galaxy:
+As mentioned previously, the IEDB-API does not include thresholds, context, and inversion. So here are some mockups of what this could look like in Galaxy:
 
 ![tool-mockup](images/Galaxy-tool-brainstorm.png)
 ![context-mockup](images/Context-mockup.png)
 ![inversion-mockup](images/Inversion-mockup.png)
 
 ## Remaining Questions/To-Dos
+
+## %Rank thresholds
+Reid shared that this should be a quick implementation. We should use the same defaults as the website for consistency:
+* Threshold for strong binders: `1.0`
+     - Explanation: percentile rank (%Rank) less than or equal to this cut-off (here, 1.0%) indicates **strong** binding between peptide:HLA class II molecule.
+     - Numerically: %Rank_EL =< 1.0
+* Threshold for weak binders: `5.0`
+     - Explanation: %Rank greater than strong threshold and less than (or equal to) weak threshold indicates **weak** binding between peptide:HLA class II molecule
+     - Numerically: 1.0 < %Rank_El =< 5.0
 
 ### Peptide inversion
 Katherine has been testing out the DecoyDatabase tool for creating inverted peptide sequences--It seems to work well (assuming that the Web tool is just reversing the input sequences).
