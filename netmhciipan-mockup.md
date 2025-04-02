@@ -28,10 +28,12 @@
  
 ## Required User Inputs:
 * MHC molecules/HLA alleles
-  - Two options: 1) select from dropdown menu, 2) use tabular file from history.)
+  - Two options: 1) select from dropdown menu, 2) use tabular file from history.
 * Peptides of interest
   - Three options: FASTA (from history), tabular (from history), manually entered
-  - Here, we are looking at microbial peptides
+  - Here, we are looking at microbial peptides, verified by PepQuery2
+* Accession numbers of source proteins
+  - Here, we have accession numbers from the FragPipe peptide report (Module 2 Peptide Identification).
  
 ## NetMHCIIpan website interface and functionality
 
