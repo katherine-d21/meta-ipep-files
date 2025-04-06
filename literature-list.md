@@ -7,11 +7,11 @@
     - NetMHCpan and NetMHCIIpan
 * Taxonomy and Functions
 
+**Datasets:**
+* Kalaora, S. et al. Identification of bacteria-derived HLA-bound peptides in melanoma. Nature 592, 138-143 (2021).
+* Naghavian R, Faigle W, Oldrati P, Wang J, Toussaint NC, Qiu Y, Medici G, Wacker M, Freudenmann LK, Bonté PE, Weller M, Regli L, Amigorena S, Rammensee HG, Walz JS, Brugger SD, Mohme M, Zhao Y, Sospedra M, Neidert MC, Martin R. Microbial peptides activate tumour-infiltrating lymphocytes in glioblastoma. Nature. 2023 May;617(7962):807-817. doi: 10.1038/s41586-023-06081-w. Epub 2023 May 17. PMID: 37198490; PMCID: PMC10208956.
 
 ## MS-based immunopeptidomics
-
-* **Kalaora, S. et al. Identification of bacteria-derived HLA-bound peptides in melanoma. Nature 592, 138-143 (2021).**
-
 * ElAbd H, Franke A. Mass Spectrometry-Based Immunopeptidomics of Peptides Presented on Human Leukocyte Antigen Proteins. Methods Mol Biol. 2024;2758:425-443. doi: 10.1007/978-1-0716-3646-6_23. PMID: 38549028.
 
 * [Immunopeptidomics Overview](https://www.thermofisher.com/us/en/home/industrial/mass-spectrometry/mass-spectrometry-learning-center/mass-spectrometry-applications-area/immunopeptidomics.html)
