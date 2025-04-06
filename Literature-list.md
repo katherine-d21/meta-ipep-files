@@ -1,6 +1,6 @@
-# LITERATURE LIST
+# Literature list
 
-## TOPICS
+## Topics
 * Mass spectrometry (MS)-based immunopeptidomics
 * MHC binding prediction
     - IEDB
