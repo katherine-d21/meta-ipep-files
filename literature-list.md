@@ -83,9 +83,18 @@ Immunogenetics 61.1 (2009): 1-13
 
 **This one (1) article is to be cited during publication:**
 
+**Inverted peptide binders is new for version 4.3**
 Accurate prediction of HLA class II antigen presentation across all loci using tailored data acquisition and refined machine learning
 Jonas B. Nilsson, Saghar Kaabinejadian, Hooman Yari, Michel G. D. Kester, Peter van Balen, William H. Hildebrand and Morten Nielsen
 Science Advances, 24 Nov 2023. https://www.science.org/doi/10.1126/sciadv.adj6367
+
+**Context encoding articles**:
+Barra C, Alvarez B, Paul S, Sette A, Peters B, Andreatta M, Buus S, Nielsen M. Footprints of antigen processing boost MHC class II natural ligand predictions. Genome Med. 2018 Nov 16;10(1):84. doi: 10.1186/s13073-018-0594-6. PMID: 30446001; PMCID: PMC6240193.
+
+* Improved prediction of MHC II antigen presentation through integration and motif deconvolution of mass spectrometry MHC eluted ligand data.
+Reynisson B, Barra C, Kaabinejadian S, Hildebrand WH, Peters B, Nielsen M
+J Proteome Res 2020 Apr 30. doi: 10.1021/acs.jproteome.9b00874.
+PubMed: 32308001
 
 
 ***Older publications:***
@@ -103,10 +112,7 @@ Communications Biology, 21 April 2023. https://doi.org/10.1038/s42003-023-04749-
 Saghar Kaabinejadian, Carolina Barra, Bruno Alvarez, Hooman Yari, William Hildebrand, Morten Nielsen
 Frontiers in Immunology 26 January 2022. Sec. Antigen Presenting Cell Biology, DOI: 10.3389/fimmu.2022.835454
 
-* Improved prediction of MHC II antigen presentation through integration and motif deconvolution of mass spectrometry MHC eluted ligand data.
-Reynisson B, Barra C, Kaabinejadian S, Hildebrand WH, Peters B, Nielsen M
-J Proteome Res 2020 Apr 30. doi: 10.1021/acs.jproteome.9b00874.
-PubMed: 32308001
+
 
 * Improved methods for predicting peptide binding affinity to MHC class II molecules.
 Jensen KK, Andreatta M, Marcatili P, Buus S, Greenbaum JA, Yan Z, Sette A, Peters B, Nielsen M.
@@ -121,8 +127,7 @@ PubMed: 26416257
 * Quantitative predictions of peptide binding to any HLA-DR molecule of known sequence: NetMHCIIpan.
 Nielsen M, et al. (2008) PLoS Comput Biol. Jul 4;4(7):e1000107.
 
-**Context encoding article**:
-Barra C, Alvarez B, Paul S, Sette A, Peters B, Andreatta M, Buus S, Nielsen M. Footprints of antigen processing boost MHC class II natural ligand predictions. Genome Med. 2018 Nov 16;10(1):84. doi: 10.1186/s13073-018-0594-6. PMID: 30446001; PMCID: PMC6240193.
+
 
 **NetMHCII article:**
 * Prediction of MHC class II binding affinity using SMM-align, a novel stabilization matrix alignment method.
