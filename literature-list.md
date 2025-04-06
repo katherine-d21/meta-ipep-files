@@ -4,8 +4,11 @@
 * Mass spectrometry (MS)-based immunopeptidomics
 * Peptide identification
     - FragPipe
-    - MSBooster
+    - MSFragger
     - Percolator
+    - Philosopher: ProteinProphet
+    - MSBooster
+* Visualize proteomics data with PDViewer
 * Taxonomy and Functions
     - Unipept
     - BLASTP
@@ -48,6 +51,15 @@
 
 ### Peptide identification using FragPipe
 
+Use `nonspecific-HLA` workflow.
+* Edit 4/6/25: retest preloaded workflow.
+
+Excerpt from [FragPipe workflows web page](https://fragpipe.nesvilab.org/docs/tutorial_fragpipe_workflows.html)
+> Nonspecific-HLA
+>
+> Nonspecific search, with recommended settings for HLA peptides. Peptide length 7-25*. MSFragger search assumes cysteines were not alkylated (i.e. samples were not treated with iodoacetamide). Cysteinylation (C+119) is specified as variable modification. MSFragger rescoring with MSBooster. PSM validation with Percolator. Protein FDR filter is not applied, so each output file (PSM, ion, peptide) is filtered to 1% FDR at that level. If needed, extend to add label-free quantification (using IonQuant) or spectral library building with EasyPQP.
+
+
 **Peptide-spectrum matching (PSMs) with MSFragger**
 * Kong AT, Leprevost FV, Avtonomov DM, Mellacheruvu D, Nesvizhskii AI. MSFragger: ultrafast and comprehensive peptide identification in mass spectrometry-based proteomics. Nat Methods. 2017 May;14(5):513-520. doi: 10.1038/nmeth.4256. Epub 2017 Apr 10. PMID: 28394336; PMCID: PMC5409104.
 
@@ -70,15 +82,15 @@ PeptideProphet: *Note: not using for meta-iPep*
 * Keller A, Nesvizhskii AI, Kolker E, Aebersold R. Empirical statistical model to estimate the accuracy of peptide identifications made by MS/MS and database search. Anal Chem. 2002 Oct 15;74(20):5383-92. doi: 10.1021/ac025747h. PMID: 12403597.
 
 
-**Protein inference**
-
-ProteinProphet:
-* Nesvizhskii AI, Keller A, Kolker E, Aebersold R. A statistical model for identifying proteins by tandem mass spectrometry. Anal Chem. 2003 Sep 1;75(17):4646-58. doi: 10.1021/ac0341261. PMID: 14632076.
-
 **FDR filtering**
 
 Philosopher:
 * da Veiga Leprevost F, Haynes SE, Avtonomov DM, Chang HY, Shanmugam AK, Mellacheruvu D, Kong AT, Nesvizhskii AI. Philosopher: a versatile toolkit for shotgun proteomics data analysis. Nat Methods. 2020 Sep;17(9):869-870. doi: 10.1038/s41592-020-0912-y. PMID: 32669682; PMCID: PMC7509848.
+
+**Protein inference**
+
+ProteinProphet:
+* Nesvizhskii AI, Keller A, Kolker E, Aebersold R. A statistical model for identifying proteins by tandem mass spectrometry. Anal Chem. 2003 Sep 1;75(17):4646-58. doi: 10.1021/ac0341261. PMID: 14632076.
 
 **MSBooster**
 
@@ -96,14 +108,13 @@ Demichev V, Szyrwiel L, Yu F, Teo GC, Rosenberger G, Niewienda A, Ludwig D, Deck
 
 Tsou CC, Avtonomov D, Larsen B, Tucholska M, Choi H, Gingras AC, Nesvizhskii AI. DIA-Umpire: comprehensive computational framework for data-independent acquisition proteomics. Nat Methods. 2015 Mar;12(3):258-64, 7 p following 264. doi: 10.1038/nmeth.3255. Epub 2015 Jan 19. PMID: 25599550; PMCID: PMC4399776.
 
-
 **Identify peptides directly from DIA data** *Note: not using for meta-iPep*
 
 Yu F, Teo GC, Kong AT, Fröhlich K, Li GX, Demichev V, Nesvizhskii AI. Analysis of DIA proteomics data using MSFragger-DIA and FragPipe computational platform. Nat Commun. 2023 Jul 12;14(1):4154. doi: 10.1038/s41467-023-39869-5. PMID: 37438352; PMCID: PMC10338508.
 
-**Visualize proteomics data using PDViewer**
+## Visualize proteomics data using PDViewer
+* Li K, Vaudel M, Zhang B, Ren Y, Wen B. PDV: an integrative proteomics data viewer. Bioinformatics. 2019 Apr 1;35(7):1249-1251. doi: 10.1093/bioinformatics/bty770. PMID: 30169737; PMCID: PMC6821182.
 
-Li K, Vaudel M, Zhang B, Ren Y, Wen B. PDV: an integrative proteomics data viewer. Bioinformatics. 2019 Apr 1;35(7):1249-1251. doi: 10.1093/bioinformatics/bty770. PMID: 30169737; PMCID: PMC6821182.
 
 ## MHC Binding Prediction
 
