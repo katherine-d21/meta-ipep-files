@@ -36,20 +36,6 @@
 
 * Ferreira HJ, Stevenson BJ, Pak H, Yu F, Almeida Oliveira J, Huber F, Taillandier-Coindard M, Michaux J, Ricart-Altimiras E, Kraemer AI, Kandalaft LE, Speiser DE, Nesvizhskii AI, Müller M, Bassani-Sternberg M. Immunopeptidomics-based identification of naturally presented non-canonical circRNA-derived peptides. Nat Commun. 2024 Mar 15;15(1):2357. doi: 10.1038/s41467-024-46408-3. PMID: 38490980; PMCID: PMC10943130.
 
-## Tools
-
-DOWNLOADED - MSBooster paper: https://www.nature.com/articles/s41467-023-40129-9
-
-DOWNLOADED - 4. Declercq, A. et al. MS(2)Rescore: Data-Driven Rescoring Dramatically Boosts Immunopeptide Identification Rates. Mol Cell Proteomics 21, 100266 (2022).
-
-DOWNLOADED  - 5. Wen, B., Li, K., Zhang, Y. & Zhang, B. Cancer neoantigen prioritization through sensitive and reliable proteogenomics analysis. Nat Commun 11, 1759 (2020).
-
-DOWNLOADED - 6. Demichev, V., Messner, C.B., Vernardis, S.I., Lilley, K.S. & Ralser, M. DIA-NN: neural networks and interference correction enable deep proteome coverage in high throughput. Nat Methods 17, 41-44 (2020).
-
-DOWNLOADED - 7. Frohlich, K. et al. Data-Independent Acquisition: A Milestone and Prospect in Clinical Mass Spectrometry-Based Proteomics. Mol Cell Proteomics 23, 100800 (2024).
-
-DOWNLOADED - 8. Demichev, V. et al. dia-PASEF data analysis using FragPipe and DIA-NN for deep proteomics of low sample amounts. Nat Commun 13, 3944 (2022).
-
 
 ## MHC Binding Prediction
 
@@ -203,6 +189,27 @@ doi.org/10.1021/pr300576s
 
 
 ### BLASTP
+
+Altschul, S.F., Gish, W., Miller, W., Myers, E.W., Lipman, D.J. (1990) “Basic local alignment search tool.” J. Mol. Biol. 215:403-410. PubMed
+
+Altschul, S.F., Madden, T.L., Schaffer, A.A., Zhang, J., Zhang, Z., Miller, W., Lipman, D.J. (1997) “Gapped BLAST and PSI-BLAST: a new generation of protein database search programs.” Nucleic Acids Res. 25:3389-3402. PubMed
+
+
+### DIAMOND
+[https://github.com/bbuchfink/diamond](url)
+
+When using the tool in published research, please cite: Buchfink B, Reuter K, Drost HG, "Sensitive protein alignments at tree-of-life scale using DIAMOND", Nature Methods 18, 366–368 (2021). doi:10.1038/s41592-021-01101-x
+
+For sequence clustering: Buchfink B, Ashkenazy H, Reuter K, Kennedy JA, Drost HG, "Sensitive clustering of protein sequences at tree-of-life scale using DIAMOND DeepClust", bioRxiv 2023.01.24.525373; doi: https://doi.org/10.1101/2023.01.24.525373
+
+Original publication to cite DIAMOND until v0.9.25: Buchfink B, Xie C, Huson DH, "Fast and sensitive protein alignment using DIAMOND", Nature Methods 12, 59-60 (2015). doi:10.1038/nmeth.3176
+
+### MEGAN
+[https://github.com/husonlab/megan-ce](url)
+
+MEGAN Community Edition - Interactive exploration and analysis of large-scale microbiome sequencing data. Daniel H. Huson, Sina Beier, Isabell Flade, Anna Gorska, Mohamed El-Hadidi, Suparna Mitra, Hans-Joachim Ruscheweyh and Rewati Tappu. PLoS Computational Biology, 2016
+
+Huson, D. H., Mitra, S., Ruscheweyh, H.-J., Weber, N., & Schuster, S. C. (2011). Integrative analysis of environmental sequences using MEGAN4. Genome Research, 21(9), 1552–1560. https://doi.org/10.1101/gr.120618.111
 
 ## Spectral quality
 
