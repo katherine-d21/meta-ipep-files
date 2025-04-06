@@ -45,11 +45,16 @@
 * **2025**: [Selecting thresholds (cut-offs) for MHC class I and II binding predictions](https://discuss.iedb.org/t/selecting-thresholds-cut-offs-for-mhc-class-i-and-ii-binding-predictions/182)
 
 ### HLA-I and HLA-II supertyping
-* Wang, M., & Claesson, M. H. (2014). Classification of human leukocyte antigen (HLA) supertypes. Methods in molecular biology (Clifton, N.J.), 1184, 309–317. https://doi.org/10.1007/978-1-4939-1115-8_17
-* Saha, I., Mazzocco, G., & Plewczynski, D. (2013). Consensus classification of human leukocyte antigen class II proteins. Immunogenetics, 65(2), 97–105. https://doi.org/10.1007/s00251-012-0665-6
-* Shen, W.-J., Zhang, X., Zhang, S., Liu, C., & Cui, W. (2018). The Utility of Supertype Clustering in Prediction for Class II MHC-Peptide Binding. Molecules, 23(11), 3034. https://doi.org/10.3390/molecules23113034
-* Greenbaum, J., Sidney, J., Chung, J., Brander, C., Peters, B., & Sette, A. (2011). Functional classification of class II human leukocyte antigen (HLA) molecules reveals seven different supertypes and a surprising degree of repertoire sharing across supertypes. Immunogenetics, 63(6), 325–335. https://doi.org/10.1007/s00251-011-0513-0
 
+* Wang, M., & Claesson, M. H. (2014). Classification of human leukocyte antigen (HLA) supertypes. Methods in molecular biology (Clifton, N.J.), 1184, 309–317. https://doi.org/10.1007/978-1-4939-1115-8_17
+**HLA class I supertypes**
+* Weiskopf D, Angelo MA, de Azeredo EL, Sidney J, Greenbaum JA, Fernando AN, Broadwater A, Kolla RV, De Silva AD, de Silva AM, Mattia KA, Doranz BJ, Grey HM, Shresta S, Peters B, Sette A. Comprehensive analysis of dengue virus-specific responses supports an HLA-linked protective role for CD8+ T cells. Proc Natl Acad Sci U S A. 2013 May 28;110(22):E2046-53. doi: 10.1073/pnas.1305227110. Epub 2013 Apr 11. PMID: 23580623; PMCID: PMC3670335.
+
+
+**HLA class II supertypes**
+* Greenbaum, J., Sidney, J., Chung, J., Brander, C., Peters, B., & Sette, A. (2011). Functional classification of class II human leukocyte antigen (HLA) molecules reveals seven different supertypes and a surprising degree of repertoire sharing across supertypes. Immunogenetics, 63(6), 325–335. https://doi.org/10.1007/s00251-011-0513-0
+* Shen, W.-J., Zhang, X., Zhang, S., Liu, C., & Cui, W. (2018). The Utility of Supertype Clustering in Prediction for Class II MHC-Peptide Binding. Molecules, 23(11), 3034. https://doi.org/10.3390/molecules23113034
+* Saha, I., Mazzocco, G., & Plewczynski, D. (2013). Consensus classification of human leukocyte antigen class II proteins. Immunogenetics, 65(2), 97–105. https://doi.org/10.1007/s00251-012-0665-6
 
 
 
