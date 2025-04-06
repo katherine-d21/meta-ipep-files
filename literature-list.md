@@ -2,10 +2,19 @@
 
 ## Topics
 * Mass spectrometry (MS)-based immunopeptidomics
+* Peptide identification
+    - FragPipe
+    - MSBooster
+    - Percolator
+* Taxonomy and Functions
+    - Unipept
+    - BLASTP
+    - DIAMOND
+    - MEGAN
 * MHC binding prediction
     - IEDB
+    - HLA class I and class II supertyping
     - NetMHCpan and NetMHCIIpan
-* Taxonomy and Functions
 
 **Datasets:**
 * Kalaora, S. et al. Identification of bacteria-derived HLA-bound peptides in melanoma. Nature 592, 138-143 (2021).
@@ -37,6 +46,65 @@
 * Ferreira HJ, Stevenson BJ, Pak H, Yu F, Almeida Oliveira J, Huber F, Taillandier-Coindard M, Michaux J, Ricart-Altimiras E, Kraemer AI, Kandalaft LE, Speiser DE, Nesvizhskii AI, Müller M, Bassani-Sternberg M. Immunopeptidomics-based identification of naturally presented non-canonical circRNA-derived peptides. Nat Commun. 2024 Mar 15;15(1):2357. doi: 10.1038/s41467-024-46408-3. PMID: 38490980; PMCID: PMC10943130.
 
 
+### Peptide identification using FragPipe
+
+**Peptide-spectrum matching (PSMs) with MSFragger**
+* Kong AT, Leprevost FV, Avtonomov DM, Mellacheruvu D, Nesvizhskii AI. MSFragger: ultrafast and comprehensive peptide identification in mass spectrometry-based proteomics. Nat Methods. 2017 May;14(5):513-520. doi: 10.1038/nmeth.4256. Epub 2017 Apr 10. PMID: 28394336; PMCID: PMC5409104.
+
+* Yu F, Teo GC, Kong AT, Haynes SE, Avtonomov DM, Geiszler DJ, Nesvizhskii AI. Identification of modified peptides using localization-aware open search. Nat Commun. 2020 Aug 13;11(1):4065. doi: 10.1038/s41467-020-17921-y. PMID: 32792501; PMCID: PMC7426425.
+
+* Teo GC, Polasky DA, Yu F, Nesvizhskii AI. Fast Deisotoping Algorithm and Its Implementation in the MSFragger Search Engine. J Proteome Res. 2021 Jan 1;20(1):498-505. doi: 10.1021/acs.jproteome.0c00544. Epub 2020 Dec 17. PMID: 33332123; PMCID: PMC8864561.
+
+**DDA quantification**
+
+* Yu F, Haynes SE, Teo GC, Avtonomov DM, Polasky DA, Nesvizhskii AI. Fast Quantitative Analysis of timsTOF PASEF Data with MSFragger and IonQuant. Mol Cell Proteomics. 2020 Sep;19(9):1575-1585. doi: 10.1074/mcp.TIR120.002048. Epub 2020 Jul 2. PMID: 32616513; PMCID: PMC7996969.
+
+* Yu, F., Haynes, S. E., & Nesvizhskii, A. I. (2021). IonQuant enables accurate and sensitive label-free quantification with FDR-controlled match-between-runs. Molecular & Cellular Proteomics, 20, 100077.
+
+**PSM validation** 
+
+Percolator:
+* Käll L, Canterbury JD, Weston J, Noble WS, MacCoss MJ. Semi-supervised learning for peptide identification from shotgun proteomics datasets. Nat Methods. 2007 Nov;4(11):923-5. doi: 10.1038/nmeth1113. Epub 2007 Oct 21. PMID: 17952086.
+
+PeptideProphet: *Note: not using for meta-iPep*
+* Keller A, Nesvizhskii AI, Kolker E, Aebersold R. Empirical statistical model to estimate the accuracy of peptide identifications made by MS/MS and database search. Anal Chem. 2002 Oct 15;74(20):5383-92. doi: 10.1021/ac025747h. PMID: 12403597.
+
+
+**Protein inference**
+
+ProteinProphet:
+* Nesvizhskii AI, Keller A, Kolker E, Aebersold R. A statistical model for identifying proteins by tandem mass spectrometry. Anal Chem. 2003 Sep 1;75(17):4646-58. doi: 10.1021/ac0341261. PMID: 14632076.
+
+**FDR filtering**
+
+Philosopher:
+* da Veiga Leprevost F, Haynes SE, Avtonomov DM, Chang HY, Shanmugam AK, Mellacheruvu D, Kong AT, Nesvizhskii AI. Philosopher: a versatile toolkit for shotgun proteomics data analysis. Nat Methods. 2020 Sep;17(9):869-870. doi: 10.1038/s41592-020-0912-y. PMID: 32669682; PMCID: PMC7509848.
+
+**MSBooster**
+
+* Yang KL, Yu F, Teo GC, Li K, Demichev V, Ralser M, Nesvizhskii AI. MSBooster: improving peptide identification rates using deep learning-based features. Nat Commun. 2023 Jul 27;14(1):4539. doi: 10.1038/s41467-023-40129-9. PMID: 37500632; PMCID: PMC10374903.
+
+## NOTE: Kalaora et al. and Naghavian et al. use DDA data.
+
+**Extract quantification from DIA data** *Note: not using for meta-iPep*
+
+Demichev V, Messner CB, Vernardis SI, Lilley KS, Ralser M. DIA-NN: neural networks and interference correction enable deep proteome coverage in high throughput. Nat Methods. 2020 Jan;17(1):41-44. doi: 10.1038/s41592-019-0638-x. Epub 2019 Nov 25. PMID: 31768060; PMCID: PMC6949130.
+
+Demichev V, Szyrwiel L, Yu F, Teo GC, Rosenberger G, Niewienda A, Ludwig D, Decker J, Kaspar-Schoenefeld S, Lilley KS, Mülleder M, Nesvizhskii AI, Ralser M. dia-PASEF data analysis using FragPipe and DIA-NN for deep proteomics of low sample amounts. Nat Commun. 2022 Jul 8;13(1):3944. doi: 10.1038/s41467-022-31492-0. PMID: 35803928; PMCID: PMC9270362.
+
+**Generate pseudo-MS/MS spectra from the DIA data** *Note: not using for meta-iPep*
+
+Tsou CC, Avtonomov D, Larsen B, Tucholska M, Choi H, Gingras AC, Nesvizhskii AI. DIA-Umpire: comprehensive computational framework for data-independent acquisition proteomics. Nat Methods. 2015 Mar;12(3):258-64, 7 p following 264. doi: 10.1038/nmeth.3255. Epub 2015 Jan 19. PMID: 25599550; PMCID: PMC4399776.
+
+
+**Identify peptides directly from DIA data** *Note: not using for meta-iPep*
+
+Yu F, Teo GC, Kong AT, Fröhlich K, Li GX, Demichev V, Nesvizhskii AI. Analysis of DIA proteomics data using MSFragger-DIA and FragPipe computational platform. Nat Commun. 2023 Jul 12;14(1):4154. doi: 10.1038/s41467-023-39869-5. PMID: 37438352; PMCID: PMC10338508.
+
+**Visualize proteomics data using PDViewer**
+
+Li K, Vaudel M, Zhang B, Ren Y, Wen B. PDV: an integrative proteomics data viewer. Bioinformatics. 2019 Apr 1;35(7):1249-1251. doi: 10.1093/bioinformatics/bty770. PMID: 30169737; PMCID: PMC6821182.
+
 ## MHC Binding Prediction
 
 ### IEDB posts:
@@ -47,6 +115,7 @@
 ### HLA-I and HLA-II supertyping
 
 * Wang, M., & Claesson, M. H. (2014). Classification of human leukocyte antigen (HLA) supertypes. Methods in molecular biology (Clifton, N.J.), 1184, 309–317. https://doi.org/10.1007/978-1-4939-1115-8_17
+
 **HLA class I supertypes**
 * Weiskopf D, Angelo MA, de Azeredo EL, Sidney J, Greenbaum JA, Fernando AN, Broadwater A, Kolla RV, De Silva AD, de Silva AM, Mattia KA, Doranz BJ, Grey HM, Shresta S, Peters B, Sette A. Comprehensive analysis of dengue virus-specific responses supports an HLA-linked protective role for CD8+ T cells. Proc Natl Acad Sci U S A. 2013 May 28;110(22):E2046-53. doi: 10.1073/pnas.1305227110. Epub 2013 Apr 11. PMID: 23580623; PMCID: PMC3670335.
 
@@ -62,39 +131,37 @@
 
 **These four (4) articles are to be cited during publication:**
 
-NetMHCpan-4.1 and NetMHCIIpan-4.0: Improved predictions of MHC antigen presentation by concurrent motif deconvolution and integration of MS MHC eluted ligand data
+1. NetMHCpan-4.1 and NetMHCIIpan-4.0: Improved predictions of MHC antigen presentation by concurrent motif deconvolution and integration of MS MHC eluted ligand data
 Birkir Reynisson, Bruno Alvarez, Sinu Paul, Bjoern Peters and Morten Nielsen
 Nucleic Acids Research, Volume 48, Issue W1, 02 July 2020, Pages W449–W454, https://doi.org/10.1093/nar/gkaa379
 
-NetMHCpan-4.0: Improved Peptide MHC Class I Interaction Predictions Integrating Eluted Ligand and Peptide Binding Affinity Data
+2. NetMHCpan-4.0: Improved Peptide MHC Class I Interaction Predictions Integrating Eluted Ligand and Peptide Binding Affinity Data
 Vanessa Jurtz, Sinu Paul, Massimo Andreatta, Paolo Marcatili, Bjoern Peters and Morten Nielsen
 The Journal of Immunology (2017) ji1700893; DOI: 10.4049/jimmunol.1700893
 
-NetMHCpan-3.0: improved prediction of binding to MHC class I molecules integrating information from multiple receptor and peptide length data sets
+3. NetMHCpan-3.0: improved prediction of binding to MHC class I molecules integrating information from multiple receptor and peptide length data sets
 Morten Nielsen and Massimo Andreatta
 Genome Medicine (2016): 8:33
 
-NetMHCpan, a method for MHC class I binding prediction beyond humans
+4. NetMHCpan, a method for MHC class I binding prediction beyond humans
 Ilka Hoof, Bjoern Peters, John Sidney, Lasse Eggers Pedersen, Ole Lund, Soren Buus, and Morten Nielsen
 Immunogenetics 61.1 (2009): 1-13
 
 
 ### NetMHCIIpan
 
-**This one (1) article is to be cited during publication:**
-
-**Inverted peptide binders is new for version 4.3**
-Accurate prediction of HLA class II antigen presentation across all loci using tailored data acquisition and refined machine learning
+**This one (1) article is to be cited during publication:** *Inverted peptide binders is new for version 4.3*
+1. Accurate prediction of HLA class II antigen presentation across all loci using tailored data acquisition and refined machine learning
 Jonas B. Nilsson, Saghar Kaabinejadian, Hooman Yari, Michel G. D. Kester, Peter van Balen, William H. Hildebrand and Morten Nielsen
 Science Advances, 24 Nov 2023. https://www.science.org/doi/10.1126/sciadv.adj6367
 
 **Inverted peptide articles:**
-S. Klobuch, J. J. Lim, P. van Balen, M. G. D. Kester, W. de Klerk, A. H. de Ru, C. R. Pothast, I. Jedema, J. W. Drijfhout, J. Rossjohn, H. H. Reid, P. A. van Veelen, J. H. F. Falkenburg, M. H. M. Heemskerk, Human T cells recognize HLA-DP–bound peptides in two orientations. Proc. Natl. Acad. Sci. U.S.A. 119, e2214331119 (2022).
+* S. Klobuch, J. J. Lim, P. van Balen, M. G. D. Kester, W. de Klerk, A. H. de Ru, C. R. Pothast, I. Jedema, J. W. Drijfhout, J. Rossjohn, H. H. Reid, P. A. van Veelen, J. H. F. Falkenburg, M. H. M. Heemskerk, Human T cells recognize HLA-DP–bound peptides in two orientations. Proc. Natl. Acad. Sci. U.S.A. 119, e2214331119 (2022).
 
-J. Racle, P. Guillaume, J. Schmidt, J. Michaux, A. Larabi, K. Lau, M. A. S. Perez, G. Croce, R. Genolet, G. Coukos, V. Zoete, F. Pojer, M. Bassani-Sternberg, A. Harari, D. Gfeller, Machine learning predictions of MHC-II specificities reveal alternative binding mode of class II epitopes. Immunity 56, 1359–1375 (2023).
+* J. Racle, P. Guillaume, J. Schmidt, J. Michaux, A. Larabi, K. Lau, M. A. S. Perez, G. Croce, R. Genolet, G. Coukos, V. Zoete, F. Pojer, M. Bassani-Sternberg, A. Harari, D. Gfeller, Machine learning predictions of MHC-II specificities reveal alternative binding mode of class II epitopes. Immunity 56, 1359–1375 (2023).
 
 **Context encoding articles:**
-Barra C, Alvarez B, Paul S, Sette A, Peters B, Andreatta M, Buus S, Nielsen M. Footprints of antigen processing boost MHC class II natural ligand predictions. Genome Med. 2018 Nov 16;10(1):84. doi: 10.1186/s13073-018-0594-6. PMID: 30446001; PMCID: PMC6240193.
+* Barra C, Alvarez B, Paul S, Sette A, Peters B, Andreatta M, Buus S, Nielsen M. Footprints of antigen processing boost MHC class II natural ligand predictions. Genome Med. 2018 Nov 16;10(1):84. doi: 10.1186/s13073-018-0594-6. PMID: 30446001; PMCID: PMC6240193.
 
 * Improved prediction of MHC II antigen presentation through integration and motif deconvolution of mass spectrometry MHC eluted ligand data.
 Reynisson B, Barra C, Kaabinejadian S, Hildebrand WH, Peters B, Nielsen M
@@ -104,38 +171,38 @@ PubMed: 32308001
 
 ***Older publications:***
 
-### NetMHCpan
-* NetMHCpan, a Method for Quantitative Predictions of Peptide Binding to Any HLA-A and -B Locus Protein of Known Sequence.
+**NetMHCpan**
+
+NetMHCpan, a Method for Quantitative Predictions of Peptide Binding to Any HLA-A and -B Locus Protein of Known Sequence.
 Nielsen M, et al. (2007) PLoS ONE 2(8): e796. doi:10.1371/journal.pone.0000796
 
-### NetMHCIIpan
-* Machine learning reveals limited contribution of trans-only encoded variants to the HLA-DQ immunopeptidome
+**NetMHCIIpan**
+
+Machine learning reveals limited contribution of trans-only encoded variants to the HLA-DQ immunopeptidome
 Jonas Birkelund Nilsson, Saghar Kaabinejadian, Hooman Yari, Bjoern Peters, Carolina Barra, Loren Gragert, William Hildebrand and Morten Nielsen
 Communications Biology, 21 April 2023. https://doi.org/10.1038/s42003-023-04749-7
 
-* Accurate MHC Motif Deconvolution of immunopeptidomics data reveals high relevant contribution of DRB3, 4 and 5 to the total DR Immunopeptidome
+Accurate MHC Motif Deconvolution of immunopeptidomics data reveals high relevant contribution of DRB3, 4 and 5 to the total DR Immunopeptidome
 Saghar Kaabinejadian, Carolina Barra, Bruno Alvarez, Hooman Yari, William Hildebrand, Morten Nielsen
 Frontiers in Immunology 26 January 2022. Sec. Antigen Presenting Cell Biology, DOI: 10.3389/fimmu.2022.835454
 
-
-
-* Improved methods for predicting peptide binding affinity to MHC class II molecules.
+Improved methods for predicting peptide binding affinity to MHC class II molecules.
 Jensen KK, Andreatta M, Marcatili P, Buus S, Greenbaum JA, Yan Z, Sette A, Peters B, Nielsen M.
 Immunology. 2018 Jan 6. doi: 10.1111/imm.12889.
 PubMed: 29315598
 
-* Accurate pan-specific prediction of peptide-MHC class II binding affinity with improved binding core identification
+Accurate pan-specific prediction of peptide-MHC class II binding affinity with improved binding core identification
 Andreatta M, Karosiene E, Rasmussen M, Stryhn A, Buus S, and Nielsen M
 Immunogenetics (2015)
 PubMed: 26416257
 
-* Quantitative predictions of peptide binding to any HLA-DR molecule of known sequence: NetMHCIIpan.
+Quantitative predictions of peptide binding to any HLA-DR molecule of known sequence: NetMHCIIpan.
 Nielsen M, et al. (2008) PLoS Comput Biol. Jul 4;4(7):e1000107.
 
 
-
 **NetMHCII article:**
-* Prediction of MHC class II binding affinity using SMM-align, a novel stabilization matrix alignment method.
+
+Prediction of MHC class II binding affinity using SMM-align, a novel stabilization matrix alignment method.
 Nielsen, M, Lundegaard, C & Lund, O.
 BMC Bioinformatics 8, 238 (2007). https://doi.org/10.1186/1471-2105-8-238
 
