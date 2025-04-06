@@ -30,6 +30,11 @@
 
 * Demichev, V. et al. dia-PASEF data analysis using FragPipe and DIA-NN for deep proteomics of low sample amounts. Nat Commun 13, 3944 (2022).
 
+* Ritz D, Kinzi J, Neri D, Fugmann T. Data-Independent Acquisition of HLA Class I Peptidomes on the Q Exactive Mass Spectrometer Platform. Proteomics. 2017 Oct;17(19):10.1002/pmic.201700177. doi: 10.1002/pmic.201700177. PMID: 28834231; PMCID: PMC5846733.
+
+* Pak H, Michaux J, Huber F, Chong C, Stevenson BJ, Müller M, Coukos G, Bassani-Sternberg M. Sensitive Immunopeptidomics by Leveraging Available Large-Scale Multi-HLA Spectral Libraries, Data-Independent Acquisition, and MS/MS Prediction. Mol Cell Proteomics. 2021;20:100080. doi: 10.1016/j.mcpro.2021.100080. Epub 2021 Apr 9. PMID: 33845167; PMCID: PMC8724634.
+
+* Ferreira HJ, Stevenson BJ, Pak H, Yu F, Almeida Oliveira J, Huber F, Taillandier-Coindard M, Michaux J, Ricart-Altimiras E, Kraemer AI, Kandalaft LE, Speiser DE, Nesvizhskii AI, Müller M, Bassani-Sternberg M. Immunopeptidomics-based identification of naturally presented non-canonical circRNA-derived peptides. Nat Commun. 2024 Mar 15;15(1):2357. doi: 10.1038/s41467-024-46408-3. PMID: 38490980; PMCID: PMC10943130.
 
 ## Tools
 
