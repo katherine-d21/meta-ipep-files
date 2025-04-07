@@ -57,7 +57,7 @@ Use `nonspecific-HLA` workflow.
 Excerpt from [FragPipe workflows web page](https://fragpipe.nesvilab.org/docs/tutorial_fragpipe_workflows.html)
 > Nonspecific-HLA
 >
-> Nonspecific search, with recommended settings for HLA peptides. Peptide length 7-25*. MSFragger search assumes cysteines were not alkylated (i.e. samples were not treated with iodoacetamide). Cysteinylation (C+119) is specified as variable modification. MSFragger rescoring with MSBooster. PSM validation with Percolator. Protein FDR filter is not applied, so each output file (PSM, ion, peptide) is filtered to 1% FDR at that level. If needed, extend to add label-free quantification (using IonQuant) or spectral library building with EasyPQP.
+> Nonspecific search, with recommended settings for HLA peptides. Peptide length 7-25. MSFragger search assumes cysteines were not alkylated (i.e. samples were not treated with iodoacetamide). Cysteinylation (C+119) is specified as variable modification. MSFragger rescoring with MSBooster. PSM validation with Percolator. Protein FDR filter is not applied, so each output file (PSM, ion, peptide) is filtered to 1% FDR at that level. If needed, extend to add label-free quantification (using IonQuant) or spectral library building with EasyPQP.
 
 
 **Peptide-spectrum matching (PSMs) with MSFragger**
