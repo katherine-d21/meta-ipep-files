@@ -48,6 +48,9 @@
 
 * Ferreira HJ, Stevenson BJ, Pak H, Yu F, Almeida Oliveira J, Huber F, Taillandier-Coindard M, Michaux J, Ricart-Altimiras E, Kraemer AI, Kandalaft LE, Speiser DE, Nesvizhskii AI, Müller M, Bassani-Sternberg M. Immunopeptidomics-based identification of naturally presented non-canonical circRNA-derived peptides. Nat Commun. 2024 Mar 15;15(1):2357. doi: 10.1038/s41467-024-46408-3. PMID: 38490980; PMCID: PMC10943130.
 
+* Murphy JP, Konda P, Kowalewski DJ, Schuster H, Clements D, Kim Y, Cohen AM, Sharif T, Nielsen M, Stevanovic S, Lee PW, Gujar S. MHC-I Ligand Discovery Using Targeted Database Searches of Mass Spectrometry Data: Implications for T-Cell Immunotherapies. J Proteome Res. 2017 Apr 7;16(4):1806-1816. doi: 10.1021/acs.jproteome.6b00971. Epub 2017 Mar 21. PMID: 28244318.
+
+* Nielsen M, Ternette N, Barra C. The interdependence of machine learning and LC-MS approaches for an unbiased understanding of the cellular immunopeptidome. Expert Rev Proteomics. 2022 Feb;19(2):77-88. doi: 10.1080/14789450.2022.2064278. Epub 2022 Apr 21. PMID: 35390265.
 
 ### Peptide identification using FragPipe
 
