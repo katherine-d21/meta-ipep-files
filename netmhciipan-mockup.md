@@ -106,6 +106,7 @@ Reid shared that this should be a quick implementation. We should use the same d
 ### Peptide inversion
 Katherine has been testing out the DecoyDatabase tool for creating inverted peptide sequences--It seems to work well (assuming that the Web tool is just reversing the input sequences).
      - [EU history link](https://usegalaxy.eu/u/katherine.d21/h/eu-03302025-meta-ipep-wf5-test-context-inversion)
+*Edit 4/4/25 Via email, MN confirmed that "When enabled, [this takes] an input peptide (such as ABCDEFGHI) and predict binding for its inverted sequence (IHGFEDCBA)"*
 
 ![inverted-db-example](images/Inverted-db-example.png)
 
@@ -115,5 +116,7 @@ Testing how to extract the peptide context in Galaxy has been more complicated. 
 ![context-sql](images/context-sql.png)
 
 There's also another separate but related issue of how exactly does NetMHCIIpan evaluate sequences if/when *both* context and inversion are enabled--This would impact how Katherine builds the workflow and how Reid would configure the Galaxy tool wrapper.
-* Situation 1: Context residues **are** included in inversion > Encoding context must occur *before* peptide inversion, followed by binding prediction.
-* Situation 2: Context residues are **not** included in inversion > Encoding context must occur *after* peptide inversion, followed by binding prediction.
+
+*Edit 4/4/25 Via email, MN confirmed that "The context in NOT inverted. This since the context is supposed to caption processing signals, and the [inversion] is related to the MHC binding"*
+* ~~Situation 1: Context residues **are** included in inversion > Encoding context must occur *before* peptide inversion, followed by binding prediction.~~
+* Situation 2: Context residues are **not** included in inversion ~~> Encoding context must occur *after* peptide inversion, followed by binding prediction.~~
