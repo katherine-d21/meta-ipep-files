@@ -66,6 +66,9 @@
 
 ### Peptide identification using FragPipe
 
+[https://fragpipe.nesvilab.org/](url)
+[https://github.com/Nesvilab/FragPipe](url)
+
 **Peptide-spectrum matching (PSMs) with MSFragger**
 
 ❗ Kong AT, Leprevost FV, Avtonomov DM, Mellacheruvu D, Nesvizhskii AI. MSFragger: ultrafast and comprehensive peptide identification in mass spectrometry-based proteomics. Nat Methods. 2017 May;14(5):513-520. doi: 10.1038/nmeth.4256. Epub 2017 Apr 10. PMID: 28394336; PMCID: PMC5409104.
