@@ -32,7 +32,7 @@
 
 ✅ 12/19/24 - Kalaora S, Nagler A, Nejman D, Alon M, Barbolin C, Barnea E, Ketelaars SLC, Cheng K, Vervier K, Shental N, Bussi Y, Rotkopf R, Levy R, Benedek G, Trabish S, Dadosh T, Levin-Zaidman S, Geller LT, Wang K, Greenberg P, Yagel G, Peri A, Fuks G, Bhardwaj N, Reuben A, Hermida L, Johnson SB, Galloway-Peña JR, Shropshire WC, Bernatchez C, Haymaker C, Arora R, Roitman L, Eilam R, Weinberger A, Lotan-Pompan M, Lotem M, Admon A, Levin Y, Lawley TD, Adams DJ, Levesque MP, Besser MJ, Schachter J, Golani O, Segal E, Geva-Zatorsky N, Ruppin E, Kvistborg P, Peterson SN, Wargo JA, Straussman R, Samuels Y. Identification of bacteria-derived HLA-bound peptides in melanoma. Nature. 2021 Apr;592(7852):138-143. doi: 10.1038/s41586-021-03368-8. Epub 2021 Mar 17. PMID: 33731925; PMCID: PMC9717498.
 
-✅ 4/8/25 - first read. Naghavian R, Faigle W, Oldrati P, Wang J, Toussaint NC, Qiu Y, Medici G, Wacker M, Freudenmann LK, Bonté PE, Weller M, Regli L, Amigorena S, Rammensee HG, Walz JS, Brugger SD, Mohme M, Zhao Y, Sospedra M, Neidert MC, Martin R. Microbial peptides activate tumour-infiltrating lymphocytes in glioblastoma. Nature. 2023 May;617(7962):807-817. doi: 10.1038/s41586-023-06081-w. Epub 2023 May 17. PMID: 37198490; PMCID: PMC10208956.
+✅ 4/8/25 - Naghavian R, Faigle W, Oldrati P, Wang J, Toussaint NC, Qiu Y, Medici G, Wacker M, Freudenmann LK, Bonté PE, Weller M, Regli L, Amigorena S, Rammensee HG, Walz JS, Brugger SD, Mohme M, Zhao Y, Sospedra M, Neidert MC, Martin R. Microbial peptides activate tumour-infiltrating lymphocytes in glioblastoma. Nature. 2023 May;617(7962):807-817. doi: 10.1038/s41586-023-06081-w. Epub 2023 May 17. PMID: 37198490; PMCID: PMC10208956.
 
 ## MS-based immunopeptidomics
 
@@ -186,7 +186,7 @@ Nucleic Acids Research, Volume 48, Issue W1, 02 July 2020, Pages W449–W454, ht
 Vanessa Jurtz, Sinu Paul, Massimo Andreatta, Paolo Marcatili, Bjoern Peters and Morten Nielsen
 The Journal of Immunology (2017) ji1700893; DOI: 10.4049/jimmunol.1700893
 
-❗ NetMHCpan-3.0: improved prediction of binding to MHC class I molecules integrating information from multiple receptor and peptide length data sets
+✅ 4/8/25 - NetMHCpan-3.0: improved prediction of binding to MHC class I molecules integrating information from multiple receptor and peptide length data sets
 Morten Nielsen and Massimo Andreatta
 Genome Medicine (2016): 8:33
 
