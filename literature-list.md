@@ -87,7 +87,8 @@ Percolator:
 ❗ Käll L, Canterbury JD, Weston J, Noble WS, MacCoss MJ. Semi-supervised learning for peptide identification from shotgun proteomics datasets. Nat Methods. 2007 Nov;4(11):923-5. doi: 10.1038/nmeth1113. Epub 2007 Oct 21. PMID: 17952086.
 
 PeptideProphet: *Note: not using for meta-iPep*
-* Keller A, Nesvizhskii AI, Kolker E, Aebersold R. Empirical statistical model to estimate the accuracy of peptide identifications made by MS/MS and database search. Anal Chem. 2002 Oct 15;74(20):5383-92. doi: 10.1021/ac025747h. PMID: 12403597.
+
+Keller A, Nesvizhskii AI, Kolker E, Aebersold R. Empirical statistical model to estimate the accuracy of peptide identifications made by MS/MS and database search. Anal Chem. 2002 Oct 15;74(20):5383-92. doi: 10.1021/ac025747h. PMID: 12403597.
 
 
 **FDR filtering**
@@ -103,7 +104,6 @@ ProteinProphet:
 ❗ Nesvizhskii AI, Keller A, Kolker E, Aebersold R. A statistical model for identifying proteins by tandem mass spectrometry. Anal Chem. 2003 Sep 1;75(17):4646-58. doi: 10.1021/ac0341261. PMID: 14632076.
 
 **MSBooster**
-
 
 ❗ Yang KL, Yu F, Teo GC, Li K, Demichev V, Ralser M, Nesvizhskii AI. MSBooster: improving peptide identification rates using deep learning-based features. Nat Commun. 2023 Jul 27;14(1):4539. doi: 10.1038/s41467-023-40129-9. PMID: 37500632; PMCID: PMC10374903.
 
@@ -148,8 +148,11 @@ Yu F, Teo GC, Kong AT, Fröhlich K, Li GX, Demichev V, Nesvizhskii AI. Analysis 
 ## MHC Binding Prediction
 
 ### IEDB posts:
+
 ✅ 2/27/25 - **2020:** [HLA allele frequencies and reference sets with maximal population coverage](https://help.iedb.org/hc/en-us/articles/114094151851-HLA-allele-frequencies-and-reference-sets-with-maximal-population-coverage)
+
 ✅ 2/27/25 - **2022**: [What allele types can I select for my MHC Class I and Class II predictions?](https://help.iedb.org/hc/en-us/articles/4416712893083-What-allele-types-can-I-select-for-my-MHC-Class-I-and-Class-II-predictions)
+
 ✅ 4/2/25 - **2025**: [Selecting thresholds (cut-offs) for MHC class I and II binding predictions](https://discuss.iedb.org/t/selecting-thresholds-cut-offs-for-mhc-class-i-and-ii-binding-predictions/182)
 
 ### HLA-I and HLA-II supertyping
@@ -157,13 +160,13 @@ Yu F, Teo GC, Kong AT, Fröhlich K, Li GX, Demichev V, Nesvizhskii AI. Analysis 
 * Wang, M., & Claesson, M. H. (2014). Classification of human leukocyte antigen (HLA) supertypes. Methods in molecular biology (Clifton, N.J.), 1184, 309–317. https://doi.org/10.1007/978-1-4939-1115-8_17
 
 **HLA class I supertypes**
-* Weiskopf D, Angelo MA, de Azeredo EL, Sidney J, Greenbaum JA, Fernando AN, Broadwater A, Kolla RV, De Silva AD, de Silva AM, Mattia KA, Doranz BJ, Grey HM, Shresta S, Peters B, Sette A. Comprehensive analysis of dengue virus-specific responses supports an HLA-linked protective role for CD8+ T cells. Proc Natl Acad Sci U S A. 2013 May 28;110(22):E2046-53. doi: 10.1073/pnas.1305227110. Epub 2013 Apr 11. PMID: 23580623; PMCID: PMC3670335.
+❓Weiskopf D, Angelo MA, de Azeredo EL, Sidney J, Greenbaum JA, Fernando AN, Broadwater A, Kolla RV, De Silva AD, de Silva AM, Mattia KA, Doranz BJ, Grey HM, Shresta S, Peters B, Sette A. Comprehensive analysis of dengue virus-specific responses supports an HLA-linked protective role for CD8+ T cells. Proc Natl Acad Sci U S A. 2013 May 28;110(22):E2046-53. doi: 10.1073/pnas.1305227110. Epub 2013 Apr 11. PMID: 23580623; PMCID: PMC3670335.
 
 
 **HLA class II supertypes**
-* Greenbaum, J., Sidney, J., Chung, J., Brander, C., Peters, B., & Sette, A. (2011). Functional classification of class II human leukocyte antigen (HLA) molecules reveals seven different supertypes and a surprising degree of repertoire sharing across supertypes. Immunogenetics, 63(6), 325–335. https://doi.org/10.1007/s00251-011-0513-0
-* Shen, W.-J., Zhang, X., Zhang, S., Liu, C., & Cui, W. (2018). The Utility of Supertype Clustering in Prediction for Class II MHC-Peptide Binding. Molecules, 23(11), 3034. https://doi.org/10.3390/molecules23113034
-* Saha, I., Mazzocco, G., & Plewczynski, D. (2013). Consensus classification of human leukocyte antigen class II proteins. Immunogenetics, 65(2), 97–105. https://doi.org/10.1007/s00251-012-0665-6
+❓ Greenbaum, J., Sidney, J., Chung, J., Brander, C., Peters, B., & Sette, A. (2011). Functional classification of class II human leukocyte antigen (HLA) molecules reveals seven different supertypes and a surprising degree of repertoire sharing across supertypes. Immunogenetics, 63(6), 325–335. https://doi.org/10.1007/s00251-011-0513-0
+❓ Shen, W.-J., Zhang, X., Zhang, S., Liu, C., & Cui, W. (2018). The Utility of Supertype Clustering in Prediction for Class II MHC-Peptide Binding. Molecules, 23(11), 3034. https://doi.org/10.3390/molecules23113034
+❓ Saha, I., Mazzocco, G., & Plewczynski, D. (2013). Consensus classification of human leukocyte antigen class II proteins. Immunogenetics, 65(2), 97–105. https://doi.org/10.1007/s00251-012-0665-6
 
 
 
