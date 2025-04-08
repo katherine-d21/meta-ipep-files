@@ -164,8 +164,11 @@ Yu F, Teo GC, Kong AT, Fröhlich K, Li GX, Demichev V, Nesvizhskii AI. Analysis 
 
 
 **HLA class II supertypes**
+
 ❓ Greenbaum, J., Sidney, J., Chung, J., Brander, C., Peters, B., & Sette, A. (2011). Functional classification of class II human leukocyte antigen (HLA) molecules reveals seven different supertypes and a surprising degree of repertoire sharing across supertypes. Immunogenetics, 63(6), 325–335. https://doi.org/10.1007/s00251-011-0513-0
+
 ❓ Shen, W.-J., Zhang, X., Zhang, S., Liu, C., & Cui, W. (2018). The Utility of Supertype Clustering in Prediction for Class II MHC-Peptide Binding. Molecules, 23(11), 3034. https://doi.org/10.3390/molecules23113034
+
 ❓ Saha, I., Mazzocco, G., & Plewczynski, D. (2013). Consensus classification of human leukocyte antigen class II proteins. Immunogenetics, 65(2), 97–105. https://doi.org/10.1007/s00251-012-0665-6
 
 
