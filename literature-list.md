@@ -22,14 +22,15 @@
     - NetMHCpan and NetMHCIIpan
 
 ### Status
-- No checkbox - don't need to read, but kept for reference
-- 📖 Currently reading.
-- ❗Plan to read.
-- ✅ Have read. MM/DD/YY date finished.
+* No checkbox - Keep for reference
+❓ Might read.
+❗ Plan to read.
+📖 Currently reading.
+✅ Have read. MM/DD/YY date finished.
 
 **Datasets:**
 ✅ 12/19/24 - Kalaora S, Nagler A, Nejman D, Alon M, Barbolin C, Barnea E, Ketelaars SLC, Cheng K, Vervier K, Shental N, Bussi Y, Rotkopf R, Levy R, Benedek G, Trabish S, Dadosh T, Levin-Zaidman S, Geller LT, Wang K, Greenberg P, Yagel G, Peri A, Fuks G, Bhardwaj N, Reuben A, Hermida L, Johnson SB, Galloway-Peña JR, Shropshire WC, Bernatchez C, Haymaker C, Arora R, Roitman L, Eilam R, Weinberger A, Lotan-Pompan M, Lotem M, Admon A, Levin Y, Lawley TD, Adams DJ, Levesque MP, Besser MJ, Schachter J, Golani O, Segal E, Geva-Zatorsky N, Ruppin E, Kvistborg P, Peterson SN, Wargo JA, Straussman R, Samuels Y. Identification of bacteria-derived HLA-bound peptides in melanoma. Nature. 2021 Apr;592(7852):138-143. doi: 10.1038/s41586-021-03368-8. Epub 2021 Mar 17. PMID: 33731925; PMCID: PMC9717498.
-✅ 4/8/25 Naghavian R, Faigle W, Oldrati P, Wang J, Toussaint NC, Qiu Y, Medici G, Wacker M, Freudenmann LK, Bonté PE, Weller M, Regli L, Amigorena S, Rammensee HG, Walz JS, Brugger SD, Mohme M, Zhao Y, Sospedra M, Neidert MC, Martin R. Microbial peptides activate tumour-infiltrating lymphocytes in glioblastoma. Nature. 2023 May;617(7962):807-817. doi: 10.1038/s41586-023-06081-w. Epub 2023 May 17. PMID: 37198490; PMCID: PMC10208956.
+✅ 4/8/25 - first read. Naghavian R, Faigle W, Oldrati P, Wang J, Toussaint NC, Qiu Y, Medici G, Wacker M, Freudenmann LK, Bonté PE, Weller M, Regli L, Amigorena S, Rammensee HG, Walz JS, Brugger SD, Mohme M, Zhao Y, Sospedra M, Neidert MC, Martin R. Microbial peptides activate tumour-infiltrating lymphocytes in glioblastoma. Nature. 2023 May;617(7962):807-817. doi: 10.1038/s41586-023-06081-w. Epub 2023 May 17. PMID: 37198490; PMCID: PMC10208956.
 
 ## MS-based immunopeptidomics
 ✅ 4/4/25 - ElAbd H, Franke A. Mass Spectrometry-Based Immunopeptidomics of Peptides Presented on Human Leukocyte Antigen Proteins. Methods Mol Biol. 2024;2758:425-443. doi: 10.1007/978-1-0716-3646-6_23. PMID: 38549028.
@@ -42,7 +43,7 @@
 
 * Declercq, A. et al. MS(2)Rescore: Data-Driven Rescoring Dramatically Boosts Immunopeptide Identification Rates. Mol Cell Proteomics 21, 100266 (2022).
 
-* Wen, B., Li, K., Zhang, Y. & Zhang, B. Cancer neoantigen prioritization through sensitive and reliable proteogenomics analysis. Nat Commun 11, 1759 (2020).
+❗ Wen, B., Li, K., Zhang, Y. & Zhang, B. Cancer neoantigen prioritization through sensitive and reliable proteogenomics analysis. Nat Commun 11, 1759 (2020).
 
 * Demichev, V., Messner, C.B., Vernardis, S.I., Lilley, K.S. & Ralser, M. DIA-NN: neural networks and interference correction enable deep proteome coverage in high throughput. Nat Methods 17, 41-44 (2020).
 
@@ -62,21 +63,12 @@
 
 ### Peptide identification using FragPipe
 
-Use `nonspecific-HLA` workflow.
-* Edit 4/6/25: retest preloaded workflow.
-
-Excerpt from [FragPipe workflows web page](https://fragpipe.nesvilab.org/docs/tutorial_fragpipe_workflows.html)
-> Nonspecific-HLA
->
-> Nonspecific search, with recommended settings for HLA peptides. Peptide length 7-25. MSFragger search assumes cysteines were not alkylated (i.e. samples were not treated with iodoacetamide). Cysteinylation (C+119) is specified as variable modification. MSFragger rescoring with MSBooster. PSM validation with Percolator. Protein FDR filter is not applied, so each output file (PSM, ion, peptide) is filtered to 1% FDR at that level. If needed, extend to add label-free quantification (using IonQuant) or spectral library building with EasyPQP.
-
-
 **Peptide-spectrum matching (PSMs) with MSFragger**
-* Kong AT, Leprevost FV, Avtonomov DM, Mellacheruvu D, Nesvizhskii AI. MSFragger: ultrafast and comprehensive peptide identification in mass spectrometry-based proteomics. Nat Methods. 2017 May;14(5):513-520. doi: 10.1038/nmeth.4256. Epub 2017 Apr 10. PMID: 28394336; PMCID: PMC5409104.
+❗ Kong AT, Leprevost FV, Avtonomov DM, Mellacheruvu D, Nesvizhskii AI. MSFragger: ultrafast and comprehensive peptide identification in mass spectrometry-based proteomics. Nat Methods. 2017 May;14(5):513-520. doi: 10.1038/nmeth.4256. Epub 2017 Apr 10. PMID: 28394336; PMCID: PMC5409104.
 
-* Yu F, Teo GC, Kong AT, Haynes SE, Avtonomov DM, Geiszler DJ, Nesvizhskii AI. Identification of modified peptides using localization-aware open search. Nat Commun. 2020 Aug 13;11(1):4065. doi: 10.1038/s41467-020-17921-y. PMID: 32792501; PMCID: PMC7426425.
+❗ Yu F, Teo GC, Kong AT, Haynes SE, Avtonomov DM, Geiszler DJ, Nesvizhskii AI. Identification of modified peptides using localization-aware open search. Nat Commun. 2020 Aug 13;11(1):4065. doi: 10.1038/s41467-020-17921-y. PMID: 32792501; PMCID: PMC7426425.
 
-* Teo GC, Polasky DA, Yu F, Nesvizhskii AI. Fast Deisotoping Algorithm and Its Implementation in the MSFragger Search Engine. J Proteome Res. 2021 Jan 1;20(1):498-505. doi: 10.1021/acs.jproteome.0c00544. Epub 2020 Dec 17. PMID: 33332123; PMCID: PMC8864561.
+❗ Teo GC, Polasky DA, Yu F, Nesvizhskii AI. Fast Deisotoping Algorithm and Its Implementation in the MSFragger Search Engine. J Proteome Res. 2021 Jan 1;20(1):498-505. doi: 10.1021/acs.jproteome.0c00544. Epub 2020 Dec 17. PMID: 33332123; PMCID: PMC8864561.
 
 **DDA quantification**
 
@@ -87,7 +79,7 @@ Excerpt from [FragPipe workflows web page](https://fragpipe.nesvilab.org/docs/tu
 **PSM validation** 
 
 Percolator:
-* Käll L, Canterbury JD, Weston J, Noble WS, MacCoss MJ. Semi-supervised learning for peptide identification from shotgun proteomics datasets. Nat Methods. 2007 Nov;4(11):923-5. doi: 10.1038/nmeth1113. Epub 2007 Oct 21. PMID: 17952086.
+❗ Käll L, Canterbury JD, Weston J, Noble WS, MacCoss MJ. Semi-supervised learning for peptide identification from shotgun proteomics datasets. Nat Methods. 2007 Nov;4(11):923-5. doi: 10.1038/nmeth1113. Epub 2007 Oct 21. PMID: 17952086.
 
 PeptideProphet: *Note: not using for meta-iPep*
 * Keller A, Nesvizhskii AI, Kolker E, Aebersold R. Empirical statistical model to estimate the accuracy of peptide identifications made by MS/MS and database search. Anal Chem. 2002 Oct 15;74(20):5383-92. doi: 10.1021/ac025747h. PMID: 12403597.
@@ -96,16 +88,16 @@ PeptideProphet: *Note: not using for meta-iPep*
 **FDR filtering**
 
 Philosopher:
-* da Veiga Leprevost F, Haynes SE, Avtonomov DM, Chang HY, Shanmugam AK, Mellacheruvu D, Kong AT, Nesvizhskii AI. Philosopher: a versatile toolkit for shotgun proteomics data analysis. Nat Methods. 2020 Sep;17(9):869-870. doi: 10.1038/s41592-020-0912-y. PMID: 32669682; PMCID: PMC7509848.
+❗ da Veiga Leprevost F, Haynes SE, Avtonomov DM, Chang HY, Shanmugam AK, Mellacheruvu D, Kong AT, Nesvizhskii AI. Philosopher: a versatile toolkit for shotgun proteomics data analysis. Nat Methods. 2020 Sep;17(9):869-870. doi: 10.1038/s41592-020-0912-y. PMID: 32669682; PMCID: PMC7509848.
 
 **Protein inference**
 
 ProteinProphet:
-* Nesvizhskii AI, Keller A, Kolker E, Aebersold R. A statistical model for identifying proteins by tandem mass spectrometry. Anal Chem. 2003 Sep 1;75(17):4646-58. doi: 10.1021/ac0341261. PMID: 14632076.
+❗ Nesvizhskii AI, Keller A, Kolker E, Aebersold R. A statistical model for identifying proteins by tandem mass spectrometry. Anal Chem. 2003 Sep 1;75(17):4646-58. doi: 10.1021/ac0341261. PMID: 14632076.
 
 **MSBooster**
 
-* Yang KL, Yu F, Teo GC, Li K, Demichev V, Ralser M, Nesvizhskii AI. MSBooster: improving peptide identification rates using deep learning-based features. Nat Commun. 2023 Jul 27;14(1):4539. doi: 10.1038/s41467-023-40129-9. PMID: 37500632; PMCID: PMC10374903.
+❗ Yang KL, Yu F, Teo GC, Li K, Demichev V, Ralser M, Nesvizhskii AI. MSBooster: improving peptide identification rates using deep learning-based features. Nat Commun. 2023 Jul 27;14(1):4539. doi: 10.1038/s41467-023-40129-9. PMID: 37500632; PMCID: PMC10374903.
 
 ## NOTE: Kalaora et al. and Naghavian et al. use DDA data.
 
@@ -126,19 +118,20 @@ Yu F, Teo GC, Kong AT, Fröhlich K, Li GX, Demichev V, Nesvizhskii AI. Analysis 
 ## Peptide verification
 
 **PepQuery2**
-Wen B, Zhang B. PepQuery2 democratizes public MS proteomics data for rapid peptide searching. Nat Commun. 2023 Apr 18;14(1):2213. doi: 10.1038/s41467-023-37462-4. PMID: 37072382; PMCID: PMC10113256.
+❗Wen B, Zhang B. PepQuery2 democratizes public MS proteomics data for rapid peptide searching. Nat Commun. 2023 Apr 18;14(1):2213. doi: 10.1038/s41467-023-37462-4. PMID: 37072382; PMCID: PMC10113256.
 
 **PepQuery**
-Wen B, Wang X, Zhang B. PepQuery enables fast, accurate, and convenient proteomic validation of novel genomic alterations. Genome Res. 2019 Mar;29(3):485-493. doi: 10.1101/gr.235028.118. Epub 2019 Jan 4. PMID: 30610011; PMCID: PMC6396417.
+❗Wen B, Wang X, Zhang B. PepQuery enables fast, accurate, and convenient proteomic validation of novel genomic alterations. Genome Res. 2019 Mar;29(3):485-493. doi: 10.1101/gr.235028.118. Epub 2019 Jan 4. PMID: 30610011; PMCID: PMC6396417.
 
-- **Also in MS-based immunopep section** Wen B, Li K, Zhang Y, Zhang B. Cancer neoantigen prioritization through sensitive and reliable proteogenomics analysis. Nat Commun. 2020 Apr 9;11(1):1759. doi: 10.1038/s41467-020-15456-w. PMID: 32273506; PMCID: PMC7145864.
+❗ **Also in MS-based immunopep section** Wen B, Li K, Zhang Y, Zhang B. Cancer neoantigen prioritization through sensitive and reliable proteogenomics analysis. Nat Commun. 2020 Apr 9;11(1):1759. doi: 10.1038/s41467-020-15456-w. PMID: 32273506; PMCID: PMC7145864.
 
 ## Visualize proteomics data using PDViewer
-* Li K, Vaudel M, Zhang B, Ren Y, Wen B. PDV: an integrative proteomics data viewer. Bioinformatics. 2019 Apr 1;35(7):1249-1251. doi: 10.1093/bioinformatics/bty770. PMID: 30169737; PMCID: PMC6821182.
+
+❗ Li K, Vaudel M, Zhang B, Ren Y, Wen B. PDV: an integrative proteomics data viewer. Bioinformatics. 2019 Apr 1;35(7):1249-1251. doi: 10.1093/bioinformatics/bty770. PMID: 30169737; PMCID: PMC6821182.
 
 **Criteria for spectral quality**
 
-* Rajczewski AT, Mehta S, Nguyen DDA, Grüning B, Johnson JE, McGowan T, Griffin TJ, Jagtap PD. A rigorous evaluation of optimal peptide targets for MS-based clinical diagnostics of Coronavirus Disease 2019 (COVID-19). Clin Proteomics. 2021 May 10;18(1):15. doi: 10.1186/s12014-021-09321-1. PMID: 33971807; PMCID: PMC8107781.
+❗ Rajczewski AT, Mehta S, Nguyen DDA, Grüning B, Johnson JE, McGowan T, Griffin TJ, Jagtap PD. A rigorous evaluation of optimal peptide targets for MS-based clinical diagnostics of Coronavirus Disease 2019 (COVID-19). Clin Proteomics. 2021 May 10;18(1):15. doi: 10.1186/s12014-021-09321-1. PMID: 33971807; PMCID: PMC8107781.
 
 
 ## MHC Binding Prediction
@@ -171,11 +164,11 @@ Wen B, Wang X, Zhang B. PepQuery enables fast, accurate, and convenient proteomi
 Birkir Reynisson, Bruno Alvarez, Sinu Paul, Bjoern Peters and Morten Nielsen
 Nucleic Acids Research, Volume 48, Issue W1, 02 July 2020, Pages W449–W454, https://doi.org/10.1093/nar/gkaa379
 
-2. NetMHCpan-4.0: Improved Peptide MHC Class I Interaction Predictions Integrating Eluted Ligand and Peptide Binding Affinity Data
+❗ NetMHCpan-4.0: Improved Peptide MHC Class I Interaction Predictions Integrating Eluted Ligand and Peptide Binding Affinity Data
 Vanessa Jurtz, Sinu Paul, Massimo Andreatta, Paolo Marcatili, Bjoern Peters and Morten Nielsen
 The Journal of Immunology (2017) ji1700893; DOI: 10.4049/jimmunol.1700893
 
-3. NetMHCpan-3.0: improved prediction of binding to MHC class I molecules integrating information from multiple receptor and peptide length data sets
+❗ NetMHCpan-3.0: improved prediction of binding to MHC class I molecules integrating information from multiple receptor and peptide length data sets
 Morten Nielsen and Massimo Andreatta
 Genome Medicine (2016): 8:33
 
@@ -192,14 +185,14 @@ Jonas B. Nilsson, Saghar Kaabinejadian, Hooman Yari, Michel G. D. Kester, Peter 
 Science Advances, 24 Nov 2023. https://www.science.org/doi/10.1126/sciadv.adj6367
 
 **Inverted peptide articles:**
-* S. Klobuch, J. J. Lim, P. van Balen, M. G. D. Kester, W. de Klerk, A. H. de Ru, C. R. Pothast, I. Jedema, J. W. Drijfhout, J. Rossjohn, H. H. Reid, P. A. van Veelen, J. H. F. Falkenburg, M. H. M. Heemskerk, Human T cells recognize HLA-DP–bound peptides in two orientations. Proc. Natl. Acad. Sci. U.S.A. 119, e2214331119 (2022).
+❗ S. Klobuch, J. J. Lim, P. van Balen, M. G. D. Kester, W. de Klerk, A. H. de Ru, C. R. Pothast, I. Jedema, J. W. Drijfhout, J. Rossjohn, H. H. Reid, P. A. van Veelen, J. H. F. Falkenburg, M. H. M. Heemskerk, Human T cells recognize HLA-DP–bound peptides in two orientations. Proc. Natl. Acad. Sci. U.S.A. 119, e2214331119 (2022).
 
-* J. Racle, P. Guillaume, J. Schmidt, J. Michaux, A. Larabi, K. Lau, M. A. S. Perez, G. Croce, R. Genolet, G. Coukos, V. Zoete, F. Pojer, M. Bassani-Sternberg, A. Harari, D. Gfeller, Machine learning predictions of MHC-II specificities reveal alternative binding mode of class II epitopes. Immunity 56, 1359–1375 (2023).
+❗ J. Racle, P. Guillaume, J. Schmidt, J. Michaux, A. Larabi, K. Lau, M. A. S. Perez, G. Croce, R. Genolet, G. Coukos, V. Zoete, F. Pojer, M. Bassani-Sternberg, A. Harari, D. Gfeller, Machine learning predictions of MHC-II specificities reveal alternative binding mode of class II epitopes. Immunity 56, 1359–1375 (2023).
 
 **Context encoding articles:**
 ✅ 3/30/25 - Barra C, Alvarez B, Paul S, Sette A, Peters B, Andreatta M, Buus S, Nielsen M. Footprints of antigen processing boost MHC class II natural ligand predictions. Genome Med. 2018 Nov 16;10(1):84. doi: 10.1186/s13073-018-0594-6. PMID: 30446001; PMCID: PMC6240193.
 
-* Improved prediction of MHC II antigen presentation through integration and motif deconvolution of mass spectrometry MHC eluted ligand data.
+❗ Improved prediction of MHC II antigen presentation through integration and motif deconvolution of mass spectrometry MHC eluted ligand data.
 Reynisson B, Barra C, Kaabinejadian S, Hildebrand WH, Peters B, Nielsen M
 J Proteome Res 2020 Apr 30. doi: 10.1021/acs.jproteome.9b00874.
 PubMed: 32308001
@@ -222,7 +215,7 @@ Accurate MHC Motif Deconvolution of immunopeptidomics data reveals high relevant
 Saghar Kaabinejadian, Carolina Barra, Bruno Alvarez, Hooman Yari, William Hildebrand, Morten Nielsen
 Frontiers in Immunology 26 January 2022. Sec. Antigen Presenting Cell Biology, DOI: 10.3389/fimmu.2022.835454
 
-Improved methods for predicting peptide binding affinity to MHC class II molecules.
+❗Improved methods for predicting peptide binding affinity to MHC class II molecules.
 Jensen KK, Andreatta M, Marcatili P, Buus S, Greenbaum JA, Yan Z, Sette A, Peters B, Nielsen M.
 Immunology. 2018 Jan 6. doi: 10.1111/imm.12889.
 PubMed: 29315598
@@ -243,6 +236,10 @@ Nielsen, M, Lundegaard, C & Lund, O.
 BMC Bioinformatics 8, 238 (2007). https://doi.org/10.1186/1471-2105-8-238
 
 
+### ICERFIRE
+
+❓Wan YR, Koşaloğlu-Yalçın Z, Peters B, Nielsen M. A large-scale study of peptide features defining immunogenicity of cancer neo-epitopes. NAR Cancer. 2024 Jan 29;6(1):zcae002. doi: 10.1093/narcan/zcae002. PMID: 38288446; PMCID: PMC10823584.
+
 ## Taxonomy and Functions
 
 ### Unipept
@@ -250,12 +247,12 @@ Link to web page: [https://unipept.ugent.be/publications](url)
 
 Relevant publications (reverse-chronological):
 
-* Tim Van Den Bossche, Pieter Verschaffelt, Tibo Vande Moortele, Peter Dawyndt, Lennart Martens, and Bart Mesuere
+❗ Tim Van Den Bossche, Pieter Verschaffelt, Tibo Vande Moortele, Peter Dawyndt, Lennart Martens, and Bart Mesuere
 Biodiversity Analysis of Metaproteomics Samples with Unipept: A Comprehensive Tutorial
 Protein Bioinformatics, 2024
 doi.org/10.1007/978-1-0716-4007-4_11
 
-* Tibo Vande Moortele, Bram Devlaminck, Simon Van de Vyver, Tim Van Den Bossche, Lennart Martens, Peter Dawyndt, Bart Mesuere, and Pieter Verschaffelt
+❗ Tibo Vande Moortele, Bram Devlaminck, Simon Van de Vyver, Tim Van Den Bossche, Lennart Martens, Peter Dawyndt, Bart Mesuere, and Pieter Verschaffelt
 Unipept in 2024: Expanding Metaproteomics Analysis with Support for Missed Cleavages, Semi-Tryptic and Non-Tryptic Peptides
 Journal of Proteome Research, 2025
 doi.org/10.1021/acs.jproteome.4c00848
@@ -308,9 +305,9 @@ doi.org/10.1021/pr300576s
 
 ### BLASTP
 
-Altschul, S.F., Gish, W., Miller, W., Myers, E.W., Lipman, D.J. (1990) “Basic local alignment search tool.” J. Mol. Biol. 215:403-410. PubMed
+❗Altschul, S.F., Gish, W., Miller, W., Myers, E.W., Lipman, D.J. (1990) “Basic local alignment search tool.” J. Mol. Biol. 215:403-410. PubMed
 
-Altschul, S.F., Madden, T.L., Schaffer, A.A., Zhang, J., Zhang, Z., Miller, W., Lipman, D.J. (1997) “Gapped BLAST and PSI-BLAST: a new generation of protein database search programs.” Nucleic Acids Res. 25:3389-3402. PubMed
+❗Altschul, S.F., Madden, T.L., Schaffer, A.A., Zhang, J., Zhang, Z., Miller, W., Lipman, D.J. (1997) “Gapped BLAST and PSI-BLAST: a new generation of protein database search programs.” Nucleic Acids Res. 25:3389-3402. PubMed
 
 
 ### DIAMOND
