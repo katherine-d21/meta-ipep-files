@@ -160,6 +160,7 @@ Yu F, Teo GC, Kong AT, Fröhlich K, Li GX, Demichev V, Nesvizhskii AI. Analysis 
 * Wang, M., & Claesson, M. H. (2014). Classification of human leukocyte antigen (HLA) supertypes. Methods in molecular biology (Clifton, N.J.), 1184, 309–317. https://doi.org/10.1007/978-1-4939-1115-8_17
 
 **HLA class I supertypes**
+
 ❓Weiskopf D, Angelo MA, de Azeredo EL, Sidney J, Greenbaum JA, Fernando AN, Broadwater A, Kolla RV, De Silva AD, de Silva AM, Mattia KA, Doranz BJ, Grey HM, Shresta S, Peters B, Sette A. Comprehensive analysis of dengue virus-specific responses supports an HLA-linked protective role for CD8+ T cells. Proc Natl Acad Sci U S A. 2013 May 28;110(22):E2046-53. doi: 10.1073/pnas.1305227110. Epub 2013 Apr 11. PMID: 23580623; PMCID: PMC3670335.
 
 
