@@ -155,7 +155,7 @@ Yu F, Teo GC, Kong AT, Fröhlich K, Li GX, Demichev V, Nesvizhskii AI. Analysis 
 
 ✅ 4/2/25 - **2025**: [Selecting thresholds (cut-offs) for MHC class I and II binding predictions](https://discuss.iedb.org/t/selecting-thresholds-cut-offs-for-mhc-class-i-and-ii-binding-predictions/182)
 
-### HLA-I and HLA-II supertyping
+### HLA-I and HLA-II molecules
 
 * Wang, M., & Claesson, M. H. (2014). Classification of human leukocyte antigen (HLA) supertypes. Methods in molecular biology (Clifton, N.J.), 1184, 309–317. https://doi.org/10.1007/978-1-4939-1115-8_17
 
@@ -174,7 +174,7 @@ Yu F, Teo GC, Kong AT, Fröhlich K, Li GX, Demichev V, Nesvizhskii AI. Analysis 
 
 
 
-### NetMHCpan
+### NetMHCpan for HLA class I binding prediction
 
 **These four (4) articles are to be cited during publication:**
 
@@ -195,7 +195,7 @@ Ilka Hoof, Bjoern Peters, John Sidney, Lasse Eggers Pedersen, Ole Lund, Soren Bu
 Immunogenetics 61.1 (2009): 1-13
 
 
-### NetMHCIIpan
+### NetMHCIIpan for HLA class II binding prediction
 
 **This one (1) article is to be cited during publication:** *Inverted peptide binders is new for version 4.3*
 
@@ -226,7 +226,17 @@ PubMed: 32308001
 ✅ 3/5/25 - NetMHCpan, a Method for Quantitative Predictions of Peptide Binding to Any HLA-A and -B Locus Protein of Known Sequence.
 Nielsen M, et al. (2007) PLoS ONE 2(8): e796. doi:10.1371/journal.pone.0000796
 
+**NetMHC-4.0**
+
 ❓Andreatta M, Nielsen M. Gapped sequence alignment using artificial neural networks: application to the MHC class I system. Bioinformatics. 2016 Feb 15;32(4):511-7. doi: 10.1093/bioinformatics/btv639. Epub 2015 Oct 29. PMID: 26515819; PMCID: PMC6402319.
+
+**Non-canonical biners protruding at termini**
+
+❓Collins EJ, Garboczi DN, Wiley DC. Three-dimensional structure of a peptide extending from one end of a class I MHC binding site. Nature. 1994 Oct 13;371(6498):626-9. doi: 10.1038/371626a0. PMID: 7935798.
+
+**Long peptides bulging out from MHC groove with canonical C and N**
+
+❓Rist MJ, Theodossis A, Croft NP, Neller MA, Welland A, Chen Z, Sullivan LC, Burrows JM, Miles JJ, Brennan RM, Gras S, Khanna R, Brooks AG, McCluskey J, Purcell AW, Rossjohn J, Burrows SR. HLA peptide length preferences control CD8+ T cell responses. J Immunol. 2013 Jul 15;191(2):561-71. doi: 10.4049/jimmunol.1300292. Epub 2013 Jun 7. PMID: 23749632.
 
 **NetMHCIIpan**
 
