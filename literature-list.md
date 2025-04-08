@@ -20,11 +20,12 @@
     - NetMHCpan and NetMHCIIpan
 
 ### Status
+- No checkbox - don't need to read, but kept for reference
 - [ ] Not read yet.
-- [X] Have read. MM/DD/YYYY date finished.
+- [X] Have read. MM/DD/YY date finished.
 
 **Datasets:**
-- [x] Kalaora S, Nagler A, Nejman D, Alon M, Barbolin C, Barnea E, Ketelaars SLC, Cheng K, Vervier K, Shental N, Bussi Y, Rotkopf R, Levy R, Benedek G, Trabish S, Dadosh T, Levin-Zaidman S, Geller LT, Wang K, Greenberg P, Yagel G, Peri A, Fuks G, Bhardwaj N, Reuben A, Hermida L, Johnson SB, Galloway-Peña JR, Shropshire WC, Bernatchez C, Haymaker C, Arora R, Roitman L, Eilam R, Weinberger A, Lotan-Pompan M, Lotem M, Admon A, Levin Y, Lawley TD, Adams DJ, Levesque MP, Besser MJ, Schachter J, Golani O, Segal E, Geva-Zatorsky N, Ruppin E, Kvistborg P, Peterson SN, Wargo JA, Straussman R, Samuels Y. Identification of bacteria-derived HLA-bound peptides in melanoma. Nature. 2021 Apr;592(7852):138-143. doi: 10.1038/s41586-021-03368-8. Epub 2021 Mar 17. PMID: 33731925; PMCID: PMC9717498.
+- [x] 12/19/24 - Kalaora S, Nagler A, Nejman D, Alon M, Barbolin C, Barnea E, Ketelaars SLC, Cheng K, Vervier K, Shental N, Bussi Y, Rotkopf R, Levy R, Benedek G, Trabish S, Dadosh T, Levin-Zaidman S, Geller LT, Wang K, Greenberg P, Yagel G, Peri A, Fuks G, Bhardwaj N, Reuben A, Hermida L, Johnson SB, Galloway-Peña JR, Shropshire WC, Bernatchez C, Haymaker C, Arora R, Roitman L, Eilam R, Weinberger A, Lotan-Pompan M, Lotem M, Admon A, Levin Y, Lawley TD, Adams DJ, Levesque MP, Besser MJ, Schachter J, Golani O, Segal E, Geva-Zatorsky N, Ruppin E, Kvistborg P, Peterson SN, Wargo JA, Straussman R, Samuels Y. Identification of bacteria-derived HLA-bound peptides in melanoma. Nature. 2021 Apr;592(7852):138-143. doi: 10.1038/s41586-021-03368-8. Epub 2021 Mar 17. PMID: 33731925; PMCID: PMC9717498.
 - [X] 4/8/25 Naghavian R, Faigle W, Oldrati P, Wang J, Toussaint NC, Qiu Y, Medici G, Wacker M, Freudenmann LK, Bonté PE, Weller M, Regli L, Amigorena S, Rammensee HG, Walz JS, Brugger SD, Mohme M, Zhao Y, Sospedra M, Neidert MC, Martin R. Microbial peptides activate tumour-infiltrating lymphocytes in glioblastoma. Nature. 2023 May;617(7962):807-817. doi: 10.1038/s41586-023-06081-w. Epub 2023 May 17. PMID: 37198490; PMCID: PMC10208956.
 
 ## MS-based immunopeptidomics
