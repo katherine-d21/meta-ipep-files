@@ -29,10 +29,13 @@
 ✅ Have read. MM/DD/YY date finished.
 
 **Datasets:**
+
 ✅ 12/19/24 - Kalaora S, Nagler A, Nejman D, Alon M, Barbolin C, Barnea E, Ketelaars SLC, Cheng K, Vervier K, Shental N, Bussi Y, Rotkopf R, Levy R, Benedek G, Trabish S, Dadosh T, Levin-Zaidman S, Geller LT, Wang K, Greenberg P, Yagel G, Peri A, Fuks G, Bhardwaj N, Reuben A, Hermida L, Johnson SB, Galloway-Peña JR, Shropshire WC, Bernatchez C, Haymaker C, Arora R, Roitman L, Eilam R, Weinberger A, Lotan-Pompan M, Lotem M, Admon A, Levin Y, Lawley TD, Adams DJ, Levesque MP, Besser MJ, Schachter J, Golani O, Segal E, Geva-Zatorsky N, Ruppin E, Kvistborg P, Peterson SN, Wargo JA, Straussman R, Samuels Y. Identification of bacteria-derived HLA-bound peptides in melanoma. Nature. 2021 Apr;592(7852):138-143. doi: 10.1038/s41586-021-03368-8. Epub 2021 Mar 17. PMID: 33731925; PMCID: PMC9717498.
+
 ✅ 4/8/25 - first read. Naghavian R, Faigle W, Oldrati P, Wang J, Toussaint NC, Qiu Y, Medici G, Wacker M, Freudenmann LK, Bonté PE, Weller M, Regli L, Amigorena S, Rammensee HG, Walz JS, Brugger SD, Mohme M, Zhao Y, Sospedra M, Neidert MC, Martin R. Microbial peptides activate tumour-infiltrating lymphocytes in glioblastoma. Nature. 2023 May;617(7962):807-817. doi: 10.1038/s41586-023-06081-w. Epub 2023 May 17. PMID: 37198490; PMCID: PMC10208956.
 
 ## MS-based immunopeptidomics
+
 ✅ 4/4/25 - ElAbd H, Franke A. Mass Spectrometry-Based Immunopeptidomics of Peptides Presented on Human Leukocyte Antigen Proteins. Methods Mol Biol. 2024;2758:425-443. doi: 10.1007/978-1-0716-3646-6_23. PMID: 38549028.
 
 ✅ 2/14/25 - [Immunopeptidomics Overview](https://www.thermofisher.com/us/en/home/industrial/mass-spectrometry/mass-spectrometry-learning-center/mass-spectrometry-applications-area/immunopeptidomics.html)
@@ -64,6 +67,7 @@
 ### Peptide identification using FragPipe
 
 **Peptide-spectrum matching (PSMs) with MSFragger**
+
 ❗ Kong AT, Leprevost FV, Avtonomov DM, Mellacheruvu D, Nesvizhskii AI. MSFragger: ultrafast and comprehensive peptide identification in mass spectrometry-based proteomics. Nat Methods. 2017 May;14(5):513-520. doi: 10.1038/nmeth.4256. Epub 2017 Apr 10. PMID: 28394336; PMCID: PMC5409104.
 
 ❗ Yu F, Teo GC, Kong AT, Haynes SE, Avtonomov DM, Geiszler DJ, Nesvizhskii AI. Identification of modified peptides using localization-aware open search. Nat Commun. 2020 Aug 13;11(1):4065. doi: 10.1038/s41467-020-17921-y. PMID: 32792501; PMCID: PMC7426425.
@@ -79,6 +83,7 @@
 **PSM validation** 
 
 Percolator:
+
 ❗ Käll L, Canterbury JD, Weston J, Noble WS, MacCoss MJ. Semi-supervised learning for peptide identification from shotgun proteomics datasets. Nat Methods. 2007 Nov;4(11):923-5. doi: 10.1038/nmeth1113. Epub 2007 Oct 21. PMID: 17952086.
 
 PeptideProphet: *Note: not using for meta-iPep*
@@ -88,14 +93,17 @@ PeptideProphet: *Note: not using for meta-iPep*
 **FDR filtering**
 
 Philosopher:
+
 ❗ da Veiga Leprevost F, Haynes SE, Avtonomov DM, Chang HY, Shanmugam AK, Mellacheruvu D, Kong AT, Nesvizhskii AI. Philosopher: a versatile toolkit for shotgun proteomics data analysis. Nat Methods. 2020 Sep;17(9):869-870. doi: 10.1038/s41592-020-0912-y. PMID: 32669682; PMCID: PMC7509848.
 
 **Protein inference**
 
 ProteinProphet:
+
 ❗ Nesvizhskii AI, Keller A, Kolker E, Aebersold R. A statistical model for identifying proteins by tandem mass spectrometry. Anal Chem. 2003 Sep 1;75(17):4646-58. doi: 10.1021/ac0341261. PMID: 14632076.
 
 **MSBooster**
+
 
 ❗ Yang KL, Yu F, Teo GC, Li K, Demichev V, Ralser M, Nesvizhskii AI. MSBooster: improving peptide identification rates using deep learning-based features. Nat Commun. 2023 Jul 27;14(1):4539. doi: 10.1038/s41467-023-40129-9. PMID: 37500632; PMCID: PMC10374903.
 
@@ -118,10 +126,13 @@ Yu F, Teo GC, Kong AT, Fröhlich K, Li GX, Demichev V, Nesvizhskii AI. Analysis 
 ## Peptide verification
 
 **PepQuery2**
+
 ❗Wen B, Zhang B. PepQuery2 democratizes public MS proteomics data for rapid peptide searching. Nat Commun. 2023 Apr 18;14(1):2213. doi: 10.1038/s41467-023-37462-4. PMID: 37072382; PMCID: PMC10113256.
 
 **PepQuery**
+
 ❗Wen B, Wang X, Zhang B. PepQuery enables fast, accurate, and convenient proteomic validation of novel genomic alterations. Genome Res. 2019 Mar;29(3):485-493. doi: 10.1101/gr.235028.118. Epub 2019 Jan 4. PMID: 30610011; PMCID: PMC6396417.
+
 
 ❗ **Also in MS-based immunopep section** Wen B, Li K, Zhang Y, Zhang B. Cancer neoantigen prioritization through sensitive and reliable proteogenomics analysis. Nat Commun. 2020 Apr 9;11(1):1759. doi: 10.1038/s41467-020-15456-w. PMID: 32273506; PMCID: PMC7145864.
 
@@ -180,16 +191,19 @@ Immunogenetics 61.1 (2009): 1-13
 ### NetMHCIIpan
 
 **This one (1) article is to be cited during publication:** *Inverted peptide binders is new for version 4.3*
+
 ✅ 3/30/25 - Accurate prediction of HLA class II antigen presentation across all loci using tailored data acquisition and refined machine learning
 Jonas B. Nilsson, Saghar Kaabinejadian, Hooman Yari, Michel G. D. Kester, Peter van Balen, William H. Hildebrand and Morten Nielsen
 Science Advances, 24 Nov 2023. https://www.science.org/doi/10.1126/sciadv.adj6367
 
 **Inverted peptide articles:**
+
 ❗ S. Klobuch, J. J. Lim, P. van Balen, M. G. D. Kester, W. de Klerk, A. H. de Ru, C. R. Pothast, I. Jedema, J. W. Drijfhout, J. Rossjohn, H. H. Reid, P. A. van Veelen, J. H. F. Falkenburg, M. H. M. Heemskerk, Human T cells recognize HLA-DP–bound peptides in two orientations. Proc. Natl. Acad. Sci. U.S.A. 119, e2214331119 (2022).
 
 ❗ J. Racle, P. Guillaume, J. Schmidt, J. Michaux, A. Larabi, K. Lau, M. A. S. Perez, G. Croce, R. Genolet, G. Coukos, V. Zoete, F. Pojer, M. Bassani-Sternberg, A. Harari, D. Gfeller, Machine learning predictions of MHC-II specificities reveal alternative binding mode of class II epitopes. Immunity 56, 1359–1375 (2023).
 
 **Context encoding articles:**
+
 ✅ 3/30/25 - Barra C, Alvarez B, Paul S, Sette A, Peters B, Andreatta M, Buus S, Nielsen M. Footprints of antigen processing boost MHC class II natural ligand predictions. Genome Med. 2018 Nov 16;10(1):84. doi: 10.1186/s13073-018-0594-6. PMID: 30446001; PMCID: PMC6240193.
 
 ❗ Improved prediction of MHC II antigen presentation through integration and motif deconvolution of mass spectrometry MHC eluted ligand data.
