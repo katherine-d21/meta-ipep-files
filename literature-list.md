@@ -190,7 +190,7 @@ The Journal of Immunology (2017) ji1700893; DOI: 10.4049/jimmunol.1700893
 Morten Nielsen and Massimo Andreatta
 Genome Medicine (2016): 8:33
 
-✅ NetMHCpan, a method for MHC class I binding prediction beyond humans
+✅ 4/5/25 - NetMHCpan, a method for MHC class I binding prediction beyond humans
 Ilka Hoof, Bjoern Peters, John Sidney, Lasse Eggers Pedersen, Ole Lund, Soren Buus, and Morten Nielsen
 Immunogenetics 61.1 (2009): 1-13
 
