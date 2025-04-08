@@ -226,6 +226,8 @@ PubMed: 32308001
 ✅ 3/5/25 - NetMHCpan, a Method for Quantitative Predictions of Peptide Binding to Any HLA-A and -B Locus Protein of Known Sequence.
 Nielsen M, et al. (2007) PLoS ONE 2(8): e796. doi:10.1371/journal.pone.0000796
 
+❓Andreatta M, Nielsen M. Gapped sequence alignment using artificial neural networks: application to the MHC class I system. Bioinformatics. 2016 Feb 15;32(4):511-7. doi: 10.1093/bioinformatics/btv639. Epub 2015 Oct 29. PMID: 26515819; PMCID: PMC6402319.
+
 **NetMHCIIpan**
 
 Machine learning reveals limited contribution of trans-only encoded variants to the HLA-DQ immunopeptidome
