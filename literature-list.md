@@ -25,16 +25,16 @@
 - No checkbox - don't need to read, but kept for reference
 - 📖 Currently reading.
 - ❗Plan to read.
-- ✔️ Have read. MM/DD/YY date finished.
+- ✅ Have read. MM/DD/YY date finished.
 
 **Datasets:**
-✔️ 12/19/24 - Kalaora S, Nagler A, Nejman D, Alon M, Barbolin C, Barnea E, Ketelaars SLC, Cheng K, Vervier K, Shental N, Bussi Y, Rotkopf R, Levy R, Benedek G, Trabish S, Dadosh T, Levin-Zaidman S, Geller LT, Wang K, Greenberg P, Yagel G, Peri A, Fuks G, Bhardwaj N, Reuben A, Hermida L, Johnson SB, Galloway-Peña JR, Shropshire WC, Bernatchez C, Haymaker C, Arora R, Roitman L, Eilam R, Weinberger A, Lotan-Pompan M, Lotem M, Admon A, Levin Y, Lawley TD, Adams DJ, Levesque MP, Besser MJ, Schachter J, Golani O, Segal E, Geva-Zatorsky N, Ruppin E, Kvistborg P, Peterson SN, Wargo JA, Straussman R, Samuels Y. Identification of bacteria-derived HLA-bound peptides in melanoma. Nature. 2021 Apr;592(7852):138-143. doi: 10.1038/s41586-021-03368-8. Epub 2021 Mar 17. PMID: 33731925; PMCID: PMC9717498.
-✔️ 4/8/25 Naghavian R, Faigle W, Oldrati P, Wang J, Toussaint NC, Qiu Y, Medici G, Wacker M, Freudenmann LK, Bonté PE, Weller M, Regli L, Amigorena S, Rammensee HG, Walz JS, Brugger SD, Mohme M, Zhao Y, Sospedra M, Neidert MC, Martin R. Microbial peptides activate tumour-infiltrating lymphocytes in glioblastoma. Nature. 2023 May;617(7962):807-817. doi: 10.1038/s41586-023-06081-w. Epub 2023 May 17. PMID: 37198490; PMCID: PMC10208956.
+✅ 12/19/24 - Kalaora S, Nagler A, Nejman D, Alon M, Barbolin C, Barnea E, Ketelaars SLC, Cheng K, Vervier K, Shental N, Bussi Y, Rotkopf R, Levy R, Benedek G, Trabish S, Dadosh T, Levin-Zaidman S, Geller LT, Wang K, Greenberg P, Yagel G, Peri A, Fuks G, Bhardwaj N, Reuben A, Hermida L, Johnson SB, Galloway-Peña JR, Shropshire WC, Bernatchez C, Haymaker C, Arora R, Roitman L, Eilam R, Weinberger A, Lotan-Pompan M, Lotem M, Admon A, Levin Y, Lawley TD, Adams DJ, Levesque MP, Besser MJ, Schachter J, Golani O, Segal E, Geva-Zatorsky N, Ruppin E, Kvistborg P, Peterson SN, Wargo JA, Straussman R, Samuels Y. Identification of bacteria-derived HLA-bound peptides in melanoma. Nature. 2021 Apr;592(7852):138-143. doi: 10.1038/s41586-021-03368-8. Epub 2021 Mar 17. PMID: 33731925; PMCID: PMC9717498.
+✅ 4/8/25 Naghavian R, Faigle W, Oldrati P, Wang J, Toussaint NC, Qiu Y, Medici G, Wacker M, Freudenmann LK, Bonté PE, Weller M, Regli L, Amigorena S, Rammensee HG, Walz JS, Brugger SD, Mohme M, Zhao Y, Sospedra M, Neidert MC, Martin R. Microbial peptides activate tumour-infiltrating lymphocytes in glioblastoma. Nature. 2023 May;617(7962):807-817. doi: 10.1038/s41586-023-06081-w. Epub 2023 May 17. PMID: 37198490; PMCID: PMC10208956.
 
 ## MS-based immunopeptidomics
-✔️ 4/4/25 - ElAbd H, Franke A. Mass Spectrometry-Based Immunopeptidomics of Peptides Presented on Human Leukocyte Antigen Proteins. Methods Mol Biol. 2024;2758:425-443. doi: 10.1007/978-1-0716-3646-6_23. PMID: 38549028.
+✅ 4/4/25 - ElAbd H, Franke A. Mass Spectrometry-Based Immunopeptidomics of Peptides Presented on Human Leukocyte Antigen Proteins. Methods Mol Biol. 2024;2758:425-443. doi: 10.1007/978-1-0716-3646-6_23. PMID: 38549028.
 
-✔️ 2/14/25 - [Immunopeptidomics Overview](https://www.thermofisher.com/us/en/home/industrial/mass-spectrometry/mass-spectrometry-learning-center/mass-spectrometry-applications-area/immunopeptidomics.html)
+✅ 2/14/25 - [Immunopeptidomics Overview](https://www.thermofisher.com/us/en/home/industrial/mass-spectrometry/mass-spectrometry-learning-center/mass-spectrometry-applications-area/immunopeptidomics.html)
 
 * Zhang B, Bassani-Sternberg M. Current perspectives on mass spectrometry-based immunopeptidomics: the computational angle to tumor antigen discovery. J Immunother Cancer. 2023 Oct;11(10):e007073. doi: 10.1136/jitc-2023-007073. PMID: 37899131; PMCID: PMC10619091.
 
@@ -144,9 +144,9 @@ Wen B, Wang X, Zhang B. PepQuery enables fast, accurate, and convenient proteomi
 ## MHC Binding Prediction
 
 ### IEDB posts:
-✔️ 2/27/25 - **2020:** [HLA allele frequencies and reference sets with maximal population coverage](https://help.iedb.org/hc/en-us/articles/114094151851-HLA-allele-frequencies-and-reference-sets-with-maximal-population-coverage)
-✔️ 2/27/25 - **2022**: [What allele types can I select for my MHC Class I and Class II predictions?](https://help.iedb.org/hc/en-us/articles/4416712893083-What-allele-types-can-I-select-for-my-MHC-Class-I-and-Class-II-predictions)
-✔️ 4/2/25 - **2025**: [Selecting thresholds (cut-offs) for MHC class I and II binding predictions](https://discuss.iedb.org/t/selecting-thresholds-cut-offs-for-mhc-class-i-and-ii-binding-predictions/182)
+✅ 2/27/25 - **2020:** [HLA allele frequencies and reference sets with maximal population coverage](https://help.iedb.org/hc/en-us/articles/114094151851-HLA-allele-frequencies-and-reference-sets-with-maximal-population-coverage)
+✅ 2/27/25 - **2022**: [What allele types can I select for my MHC Class I and Class II predictions?](https://help.iedb.org/hc/en-us/articles/4416712893083-What-allele-types-can-I-select-for-my-MHC-Class-I-and-Class-II-predictions)
+✅ 4/2/25 - **2025**: [Selecting thresholds (cut-offs) for MHC class I and II binding predictions](https://discuss.iedb.org/t/selecting-thresholds-cut-offs-for-mhc-class-i-and-ii-binding-predictions/182)
 
 ### HLA-I and HLA-II supertyping
 
@@ -167,7 +167,7 @@ Wen B, Wang X, Zhang B. PepQuery enables fast, accurate, and convenient proteomi
 
 **These four (4) articles are to be cited during publication:**
 
-✔️ 3/30/25 - NetMHCpan-4.1 and NetMHCIIpan-4.0: Improved predictions of MHC antigen presentation by concurrent motif deconvolution and integration of MS MHC eluted ligand data
+✅ 3/30/25 - NetMHCpan-4.1 and NetMHCIIpan-4.0: Improved predictions of MHC antigen presentation by concurrent motif deconvolution and integration of MS MHC eluted ligand data
 Birkir Reynisson, Bruno Alvarez, Sinu Paul, Bjoern Peters and Morten Nielsen
 Nucleic Acids Research, Volume 48, Issue W1, 02 July 2020, Pages W449–W454, https://doi.org/10.1093/nar/gkaa379
 
@@ -179,7 +179,7 @@ The Journal of Immunology (2017) ji1700893; DOI: 10.4049/jimmunol.1700893
 Morten Nielsen and Massimo Andreatta
 Genome Medicine (2016): 8:33
 
-✔️ NetMHCpan, a method for MHC class I binding prediction beyond humans
+✅ NetMHCpan, a method for MHC class I binding prediction beyond humans
 Ilka Hoof, Bjoern Peters, John Sidney, Lasse Eggers Pedersen, Ole Lund, Soren Buus, and Morten Nielsen
 Immunogenetics 61.1 (2009): 1-13
 
@@ -187,7 +187,7 @@ Immunogenetics 61.1 (2009): 1-13
 ### NetMHCIIpan
 
 **This one (1) article is to be cited during publication:** *Inverted peptide binders is new for version 4.3*
-✔️ 3/30/25 - Accurate prediction of HLA class II antigen presentation across all loci using tailored data acquisition and refined machine learning
+✅ 3/30/25 - Accurate prediction of HLA class II antigen presentation across all loci using tailored data acquisition and refined machine learning
 Jonas B. Nilsson, Saghar Kaabinejadian, Hooman Yari, Michel G. D. Kester, Peter van Balen, William H. Hildebrand and Morten Nielsen
 Science Advances, 24 Nov 2023. https://www.science.org/doi/10.1126/sciadv.adj6367
 
@@ -197,7 +197,7 @@ Science Advances, 24 Nov 2023. https://www.science.org/doi/10.1126/sciadv.adj636
 * J. Racle, P. Guillaume, J. Schmidt, J. Michaux, A. Larabi, K. Lau, M. A. S. Perez, G. Croce, R. Genolet, G. Coukos, V. Zoete, F. Pojer, M. Bassani-Sternberg, A. Harari, D. Gfeller, Machine learning predictions of MHC-II specificities reveal alternative binding mode of class II epitopes. Immunity 56, 1359–1375 (2023).
 
 **Context encoding articles:**
-✔️ 3/30/25 - Barra C, Alvarez B, Paul S, Sette A, Peters B, Andreatta M, Buus S, Nielsen M. Footprints of antigen processing boost MHC class II natural ligand predictions. Genome Med. 2018 Nov 16;10(1):84. doi: 10.1186/s13073-018-0594-6. PMID: 30446001; PMCID: PMC6240193.
+✅ 3/30/25 - Barra C, Alvarez B, Paul S, Sette A, Peters B, Andreatta M, Buus S, Nielsen M. Footprints of antigen processing boost MHC class II natural ligand predictions. Genome Med. 2018 Nov 16;10(1):84. doi: 10.1186/s13073-018-0594-6. PMID: 30446001; PMCID: PMC6240193.
 
 * Improved prediction of MHC II antigen presentation through integration and motif deconvolution of mass spectrometry MHC eluted ligand data.
 Reynisson B, Barra C, Kaabinejadian S, Hildebrand WH, Peters B, Nielsen M
@@ -209,7 +209,7 @@ PubMed: 32308001
 
 **NetMHCpan**
 
-✔️ 3/5/25 - NetMHCpan, a Method for Quantitative Predictions of Peptide Binding to Any HLA-A and -B Locus Protein of Known Sequence.
+✅ 3/5/25 - NetMHCpan, a Method for Quantitative Predictions of Peptide Binding to Any HLA-A and -B Locus Protein of Known Sequence.
 Nielsen M, et al. (2007) PLoS ONE 2(8): e796. doi:10.1371/journal.pone.0000796
 
 **NetMHCIIpan**
@@ -232,13 +232,13 @@ Andreatta M, Karosiene E, Rasmussen M, Stryhn A, Buus S, and Nielsen M
 Immunogenetics (2015)
 PubMed: 26416257
 
-✔️ 3/6/25 - Quantitative predictions of peptide binding to any HLA-DR molecule of known sequence: NetMHCIIpan.
+✅ 3/6/25 - Quantitative predictions of peptide binding to any HLA-DR molecule of known sequence: NetMHCIIpan.
 Nielsen M, et al. (2008) PLoS Comput Biol. Jul 4;4(7):e1000107.
 
 
 **NetMHCII article:**
 
-✔️ 3/5/25 - Prediction of MHC class II binding affinity using SMM-align, a novel stabilization matrix alignment method.
+✅ 3/5/25 - Prediction of MHC class II binding affinity using SMM-align, a novel stabilization matrix alignment method.
 Nielsen, M, Lundegaard, C & Lund, O.
 BMC Bioinformatics 8, 238 (2007). https://doi.org/10.1186/1471-2105-8-238
 
