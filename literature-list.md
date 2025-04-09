@@ -212,6 +212,8 @@ Science Advances, 24 Nov 2023. https://www.science.org/doi/10.1126/sciadv.adj636
 
 ❗ J. Racle, P. Guillaume, J. Schmidt, J. Michaux, A. Larabi, K. Lau, M. A. S. Perez, G. Croce, R. Genolet, G. Coukos, V. Zoete, F. Pojer, M. Bassani-Sternberg, A. Harari, D. Gfeller, Machine learning predictions of MHC-II specificities reveal alternative binding mode of class II epitopes. Immunity 56, 1359–1375 (2023).
 
+❓Racle J, Michaux J, Rockinger GA, Arnaud M, Bobisse S, Chong C, Guillaume P, Coukos G, Harari A, Jandus C, Bassani-Sternberg M, Gfeller D. Robust prediction of HLA class II epitopes by deep motif deconvolution of immunopeptidomes. Nat Biotechnol. 2019 Nov;37(11):1283-1286. doi: 10.1038/s41587-019-0289-6. Epub 2019 Oct 14. PMID: 31611696.
+
 **Context encoding articles:**
 
 ✅ 3/30/25 - Barra C, Alvarez B, Paul S, Sette A, Peters B, Andreatta M, Buus S, Nielsen M. Footprints of antigen processing boost MHC class II natural ligand predictions. Genome Med. 2018 Nov 16;10(1):84. doi: 10.1186/s13073-018-0594-6. PMID: 30446001; PMCID: PMC6240193.
