@@ -134,7 +134,7 @@ Yu F, Teo GC, Kong AT, Fröhlich K, Li GX, Demichev V, Nesvizhskii AI. Analysis 
 
 **PepQuery**
 
-❗Wen B, Wang X, Zhang B. PepQuery enables fast, accurate, and convenient proteomic validation of novel genomic alterations. Genome Res. 2019 Mar;29(3):485-493. doi: 10.1101/gr.235028.118. Epub 2019 Jan 4. PMID: 30610011; PMCID: PMC6396417.
+✅ 4/14/25 - Wen B, Wang X, Zhang B. PepQuery enables fast, accurate, and convenient proteomic validation of novel genomic alterations. Genome Res. 2019 Mar;29(3):485-493. doi: 10.1101/gr.235028.118. Epub 2019 Jan 4. PMID: 30610011; PMCID: PMC6396417.
 
 
 ❗ **Also in MS-based immunopep section** Wen B, Li K, Zhang Y, Zhang B. Cancer neoantigen prioritization through sensitive and reliable proteogenomics analysis. Nat Commun. 2020 Apr 9;11(1):1759. doi: 10.1038/s41467-020-15456-w. PMID: 32273506; PMCID: PMC7145864.
@@ -145,7 +145,7 @@ Yu F, Teo GC, Kong AT, Fröhlich K, Li GX, Demichev V, Nesvizhskii AI. Analysis 
 
 **Criteria for spectral quality**
 
-❗ Rajczewski AT, Mehta S, Nguyen DDA, Grüning B, Johnson JE, McGowan T, Griffin TJ, Jagtap PD. A rigorous evaluation of optimal peptide targets for MS-based clinical diagnostics of Coronavirus Disease 2019 (COVID-19). Clin Proteomics. 2021 May 10;18(1):15. doi: 10.1186/s12014-021-09321-1. PMID: 33971807; PMCID: PMC8107781.
+📖 Rajczewski AT, Mehta S, Nguyen DDA, Grüning B, Johnson JE, McGowan T, Griffin TJ, Jagtap PD. A rigorous evaluation of optimal peptide targets for MS-based clinical diagnostics of Coronavirus Disease 2019 (COVID-19). Clin Proteomics. 2021 May 10;18(1):15. doi: 10.1186/s12014-021-09321-1. PMID: 33971807; PMCID: PMC8107781.
 
 ❗ Jagtap PD, Johnson JE, Onsongo G, Sadler FW, Murray K, Wang Y, Shenykman GM, Bandhakavi S, Smith LM, Griffin TJ. Flexible and accessible workflows for improved proteogenomic analysis using the Galaxy framework. J Proteome Res. 2014 Dec 5;13(12):5898-908. doi: 10.1021/pr500812t. Epub 2014 Oct 23. PMID: 25301683; PMCID: PMC4261978.
 
