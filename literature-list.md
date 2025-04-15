@@ -130,7 +130,7 @@ Yu F, Teo GC, Kong AT, Fröhlich K, Li GX, Demichev V, Nesvizhskii AI. Analysis 
 
 **PepQuery2**
 
-❗Wen B, Zhang B. PepQuery2 democratizes public MS proteomics data for rapid peptide searching. Nat Commun. 2023 Apr 18;14(1):2213. doi: 10.1038/s41467-023-37462-4. PMID: 37072382; PMCID: PMC10113256.
+📖 start 4/14/25 - Wen B, Zhang B. PepQuery2 democratizes public MS proteomics data for rapid peptide searching. Nat Commun. 2023 Apr 18;14(1):2213. doi: 10.1038/s41467-023-37462-4. PMID: 37072382; PMCID: PMC10113256.
 
 **PepQuery**
 
