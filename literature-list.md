@@ -145,7 +145,7 @@ Yu F, Teo GC, Kong AT, Fröhlich K, Li GX, Demichev V, Nesvizhskii AI. Analysis 
 
 **Criteria for spectral quality**
 
-📖 start 4/14/25 - Rajczewski AT, Mehta S, Nguyen DDA, Grüning B, Johnson JE, McGowan T, Griffin TJ, Jagtap PD. A rigorous evaluation of optimal peptide targets for MS-based clinical diagnostics of Coronavirus Disease 2019 (COVID-19). Clin Proteomics. 2021 May 10;18(1):15. doi: 10.1186/s12014-021-09321-1. PMID: 33971807; PMCID: PMC8107781.
+✅ 4/17/25 - Rajczewski AT, Mehta S, Nguyen DDA, Grüning B, Johnson JE, McGowan T, Griffin TJ, Jagtap PD. A rigorous evaluation of optimal peptide targets for MS-based clinical diagnostics of Coronavirus Disease 2019 (COVID-19). Clin Proteomics. 2021 May 10;18(1):15. doi: 10.1186/s12014-021-09321-1. PMID: 33971807; PMCID: PMC8107781.
 
 ❗ Jagtap PD, Johnson JE, Onsongo G, Sadler FW, Murray K, Wang Y, Shenykman GM, Bandhakavi S, Smith LM, Griffin TJ. Flexible and accessible workflows for improved proteogenomic analysis using the Galaxy framework. J Proteome Res. 2014 Dec 5;13(12):5898-908. doi: 10.1021/pr500812t. Epub 2014 Oct 23. PMID: 25301683; PMCID: PMC4261978.
 
