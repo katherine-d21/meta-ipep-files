@@ -141,7 +141,7 @@ Yu F, Teo GC, Kong AT, Fröhlich K, Li GX, Demichev V, Nesvizhskii AI. Analysis 
 
 ## Visualize proteomics data using PDViewer
 
-❗ Li K, Vaudel M, Zhang B, Ren Y, Wen B. PDV: an integrative proteomics data viewer. Bioinformatics. 2019 Apr 1;35(7):1249-1251. doi: 10.1093/bioinformatics/bty770. PMID: 30169737; PMCID: PMC6821182.
+✅ 4/17/25 - Li K, Vaudel M, Zhang B, Ren Y, Wen B. PDV: an integrative proteomics data viewer. Bioinformatics. 2019 Apr 1;35(7):1249-1251. doi: 10.1093/bioinformatics/bty770. PMID: 30169737; PMCID: PMC6821182.
 
 **Criteria for spectral quality**
 
