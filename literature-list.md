@@ -40,6 +40,8 @@
 
 ✅ 2/14/25 - [Immunopeptidomics Overview](https://www.thermofisher.com/us/en/home/industrial/mass-spectrometry/mass-spectrometry-learning-center/mass-spectrometry-applications-area/immunopeptidomics.html)
 
+* Caron E, Kowalewski DJ, Chiek Koh C, Sturm T, Schuster H, Aebersold R. Analysis of Major Histocompatibility Complex (MHC) Immunopeptidomes Using Mass Spectrometry. Mol Cell Proteomics. 2015 Dec;14(12):3105-17. doi: 10.1074/mcp.O115.052431. PMID: 26628741; PMCID: PMC4762616.
+
 * Zhang B, Bassani-Sternberg M. Current perspectives on mass spectrometry-based immunopeptidomics: the computational angle to tumor antigen discovery. J Immunother Cancer. 2023 Oct;11(10):e007073. doi: 10.1136/jitc-2023-007073. PMID: 37899131; PMCID: PMC10619091.
 
 * Ahn R, Cui Y, White FM. Antigen discovery for the development of cancer immunotherapy. Semin Immunol. 2023 Mar;66:101733. doi: 10.1016/j.smim.2023.101733. Epub 2023 Feb 23. PMID: 36841147.
