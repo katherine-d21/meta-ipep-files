@@ -3,14 +3,23 @@
 ## FragPipe log.txt
 
 ### FragPipe Parameters:
+
 Non-tryptic, no enzyme (nonspecific-HLA workflow)
+
 Validation: MSBooster+Percolator
+
 All 4 raw files
+
 Input db: 40 organism db (779,931 sequences; includes human+cRAP)
+
 No database splitting
+
 2 var mods (N-term acet, MetOx)
+
 Tolerances: Precursor 15 ppm, Fragment 20 ppm
-Mix/max digest peptide length: adjust based on size of input database		
+
+Mix/max digest peptide length: adjust based on size of input database
+
 
 * **Database splitting** default `1` (zero splitting)
   > msfragger.misc.slice-db= `#`
@@ -52,9 +61,13 @@ Percolator:
 ## PepQuery2 Parameters
 
 Novel pept/prot validation
+
 No enzyme, non-tryptic
+
 Mods: no fixed, 1 var mod (MetOx)
+
 Tolerances: Precursor 15 ppm, Fragment 0.6 Da
+
 Min/max peptide length: adjust based on input peptide length
 
 Example PepQuery2 log file - certain portions deleted for clarity
