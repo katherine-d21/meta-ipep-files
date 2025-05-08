@@ -128,7 +128,7 @@ Example PepQuery2 log file - certain portions deleted for clarity
 
 seq #	peptide	start	end	peptide length	allele	peptide index	median binding percentile	netmhcpan_el core	netmhcpan_el icore	netmhcpan_el score	netmhcpan_el percentile	netmhcpan_ba core	netmhcpan_ba icore	netmhcpan_ba IC50	netmhcpan_ba percentile
 
-seq#,peptide,start,end,peptide_length,allele,peptide_index,median_binding_percentile,MHCI_EL_core,MHCI_EL_icore,MHCI_EL_score,MHCI_EL_percentile,MHCI_BA_core,MHCI_BA_icore,MHCI_BA_IC50,MHCI_BA_percentile
+seq,peptide,start,end,peptide_length,allele,peptide_index,median_binding_percentile,MHCI_EL_core,MHCI_EL_icore,MHCI_EL_score,MHCI_EL_percentile,MHCI_BA_core,MHCI_BA_icore,MHCI_BA_IC50,MHCI_BA_percentile
 
 
 # NetMHCiipan EL and BA output
@@ -137,4 +137,4 @@ seq#,peptide,start,end,peptide_length,allele,peptide_index,median_binding_percen
 
 seq #	peptide	start	end	peptide length	allele	peptide index	median binding percentile	netmhciipan_el core	netmhciipan_el score	netmhciipan_el percentile	netmhciipan_ba core	netmhciipan_ba IC50	netmhciipan_ba percentile
 
-seq#,peptide,start,end,peptide_length,allele,peptide_index,median_binding_percentile,MHCII_EL_core,MHCII_EL_score,MHCII_EL_percentile,MHCII_BA_core,MHCII_BA_IC50,MHCII_BA_percentile
+seq,peptide,start,end,peptide_length,allele,peptide_index,median_binding_percentile,MHCII_EL_core,MHCII_EL_score,MHCII_EL_percentile,MHCII_BA_core,MHCII_BA_IC50,MHCII_BA_percentile
