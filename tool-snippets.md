@@ -135,19 +135,30 @@ Example PepQuery2 log file - certain portions deleted for clarity
 
 > peptide	qlen	taxon_rank	taxon_id	taxon_name	ec_numbers	ec_names	go_terms	go_names	ipr_codes	ipr_names	accession	pident	evalue	salltitles	Protein	ProteinID	Entry_Name	Protein_Desc
 
-# NetMHCpan EL and BA output
+# Galaxy NetMHCpan EL and BA output
 
-16 columns:
+17 columns (only in Galaxy version: reversed column)
 
-seq #	peptide	start	end	peptide length	allele	peptide index	median binding percentile	netmhcpan_el core	netmhcpan_el icore	netmhcpan_el score	netmhcpan_el percentile	netmhcpan_ba core	netmhcpan_ba icore	netmhcpan_ba IC50	netmhcpan_ba percentile
+seq #	peptide	start	end	peptide length	allele	peptide index	median binding percentile	netmhcpan_el core	netmhcpan_el icore	netmhcpan_el score	netmhcpan_el percentile	netmhcpan_ba core	netmhcpan_ba icore	netmhcpan_ba IC50	netmhcpan_ba percentile reversed
 
-seq,peptide,start,end,peptide_length,allele,peptide_index,median_binding_percentile,MHCI_EL_core,MHCI_EL_icore,MHCI_EL_score,MHCI_EL_percentile,MHCI_BA_core,MHCI_BA_icore,MHCI_BA_IC50,MHCI_BA_percentile
+seq,peptide,start,end,peptide_length,allele,peptide_index,median_binding_percentile,MHCI_EL_core,MHCI_EL_icore,MHCI_EL_score,MHCI_EL_percentile,MHCI_BA_core,MHCI_BA_icore,MHCI_BA_IC50,MHCI_BA_percentile,reversed
 
 
-# NetMHCiipan EL and BA output
+# Galaxy NetMHCiipan EL and BA output
 
-14 columns:
+15 columns (only in Galaxy version: reversed column)
 
 seq #	peptide	start	end	peptide length	allele	peptide index	median binding percentile	netmhciipan_el core	netmhciipan_el score	netmhciipan_el percentile	netmhciipan_ba core	netmhciipan_ba IC50	netmhciipan_ba percentile
 
-seq,peptide,start,end,peptide_length,allele,peptide_index,median_binding_percentile,MHCII_EL_core,MHCII_EL_score,MHCII_EL_percentile,MHCII_BA_core,MHCII_BA_IC50,MHCII_BA_percentile
+seq,peptide,start,end,peptide_length,allele,peptide_index,median_binding_percentile,MHCII_EL_core,MHCII_EL_score,MHCII_EL_percentile,MHCII_BA_core,MHCII_BA_IC50,MHCII_BA_percentile,reversed
+
+
+# IEBD Website NetMHCpan EL and BA output
+
+## Note: The IEDB website does **not** include inversion. Therefore, outputs will NOT include a "reversed" column.
+
+16 columns (
+
+seq #	peptide	start	end	peptide length	allele	peptide index	median binding percentile	netmhcpan_el core	netmhcpan_el icore	netmhcpan_el score	netmhcpan_el percentile	netmhcpan_ba core	netmhcpan_ba icore	netmhcpan_ba IC50	netmhcpan_ba percentile
+
+
