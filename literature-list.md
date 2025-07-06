@@ -338,7 +338,7 @@ The Unipept Metaproteomics Analysis Pipeline
 Proteomics, 2015, 15 (8), pp 1437–1442
 doi.org/10.1002/pmic.201400361
 
-* Bart Mesuere, Bart Devreese, Griet Debyser, Maarten Aerts, Peter Vandamme, and Peter Dawyndt
+✅ 7/5/25 - Bart Mesuere, Bart Devreese, Griet Debyser, Maarten Aerts, Peter Vandamme, and Peter Dawyndt
 Unipept: Tryptic Peptide-Based Biodiversity Analysis of Metaproteome Samples
 J. Proteome Res., 2012, 11 (12), pp 5773–5780
 doi.org/10.1021/pr300576s
