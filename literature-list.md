@@ -91,6 +91,8 @@ Percolator:
 
 ❗ Käll L, Canterbury JD, Weston J, Noble WS, MacCoss MJ. Semi-supervised learning for peptide identification from shotgun proteomics datasets. Nat Methods. 2007 Nov;4(11):923-5. doi: 10.1038/nmeth1113. Epub 2007 Oct 21. PMID: 17952086.
 
+❗The, M., MacCoss, M.J., Noble, W.S. et al. Fast and Accurate Protein False Discovery Rates on Large-Scale Proteomics Data Sets with Percolator 3.0. J. Am. Soc. Mass Spectrom. 27, 1719–1727 (2016). https://doi.org/10.1007/s13361-016-1460-7
+
 PeptideProphet: *Note: not using for meta-iPep*
 
 Keller A, Nesvizhskii AI, Kolker E, Aebersold R. Empirical statistical model to estimate the accuracy of peptide identifications made by MS/MS and database search. Anal Chem. 2002 Oct 15;74(20):5383-92. doi: 10.1021/ac025747h. PMID: 12403597.
