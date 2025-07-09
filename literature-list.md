@@ -81,9 +81,9 @@
 
 **DDA quantification**
 
-* Yu F, Haynes SE, Teo GC, Avtonomov DM, Polasky DA, Nesvizhskii AI. Fast Quantitative Analysis of timsTOF PASEF Data with MSFragger and IonQuant. Mol Cell Proteomics. 2020 Sep;19(9):1575-1585. doi: 10.1074/mcp.TIR120.002048. Epub 2020 Jul 2. PMID: 32616513; PMCID: PMC7996969.
+❓ Yu F, Haynes SE, Teo GC, Avtonomov DM, Polasky DA, Nesvizhskii AI. Fast Quantitative Analysis of timsTOF PASEF Data with MSFragger and IonQuant. Mol Cell Proteomics. 2020 Sep;19(9):1575-1585. doi: 10.1074/mcp.TIR120.002048. Epub 2020 Jul 2. PMID: 32616513; PMCID: PMC7996969.
 
-* Yu, F., Haynes, S. E., & Nesvizhskii, A. I. (2021). IonQuant enables accurate and sensitive label-free quantification with FDR-controlled match-between-runs. Molecular & Cellular Proteomics, 20, 100077.
+❗ Yu, F., Haynes, S. E., & Nesvizhskii, A. I. (2021). IonQuant enables accurate and sensitive label-free quantification with FDR-controlled match-between-runs. Molecular & Cellular Proteomics, 20, 100077.
 
 **PSM validation** 
 
