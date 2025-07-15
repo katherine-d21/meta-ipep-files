@@ -1,6 +1,8 @@
 # Literature list
 
 ## Topics
+* Galaxy platform
+* Datasets
 * Mass spectrometry (MS)-based immunopeptidomics
 * Peptide identification
     - FragPipe
@@ -27,6 +29,10 @@
 ❗ Plan to read.
 📖 Currently reading.
 ✅ Have read. MM/DD/YY date finished.
+
+**Galaxy platform:**
+
+❗The Galaxy Community , The Galaxy platform for accessible, reproducible, and collaborative data analyses: 2024 update, Nucleic Acids Research, Volume 52, Issue W1, 5 July 2024, Pages W83–W94, https://doi.org/10.1093/nar/gkae410
 
 **Datasets:**
 
